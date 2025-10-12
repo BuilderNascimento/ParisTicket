@@ -235,17 +235,19 @@
       "title": "Tout autour de vous",
       "subtitle": "Explorez le quartier et découvrez ce qui est à proximité",
       "places": {
+        "bastille": "Place de la Bastille",
+        "oberkampf": "Rue Oberkampf",
+        "lemarais": "Le Marais",
         "eiffel": "Tour Eiffel",
         "louvre": "Louvre",
         "notredame": "Notre-Dame",
-        "vosges": "Place des Vosges",
         "byMetro": "Métro",
         "byFoot": "À pied"
       }
     },
     "cta": {
       "title": "Profitez de votre Séjour à Paris !",
-      "subtitle": "Explorez le guide et découvrez les meilleurs endroits du Marais",
+      "subtitle": "Explorez le guide et découvrez les meilleurs endroits du quartier",
       "btnGuide": "Voir le Guide Complet",
       "btnRestaurants": "Explorer les Restaurants"
     }
