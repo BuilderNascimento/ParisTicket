@@ -89,7 +89,7 @@ export default function ApartamentoPage() {
         {/* Kitchen Items */}
         <InfoSection icon="🍳" title={t("apartment.kitchen.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {(t("apartment.kitchen.items") as unknown as string[]).map((item: string, index: number) => (
+            {Array.isArray(t("apartment.kitchen.items")) && t("apartment.kitchen.items").map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>
@@ -101,7 +101,7 @@ export default function ApartamentoPage() {
         {/* Bathroom Items */}
         <InfoSection icon="🚿" title={t("apartment.bathroom.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {(t("apartment.bathroom.items") as unknown as string[]).map((item: string, index: number) => (
+            {Array.isArray(t("apartment.bathroom.items")) && t("apartment.bathroom.items").map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>
@@ -113,7 +113,7 @@ export default function ApartamentoPage() {
         {/* Bedroom Items */}
         <InfoSection icon="🛏️" title={t("apartment.bedroom.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {(t("apartment.bedroom.items") as unknown as string[]).map((item: string, index: number) => (
+            {Array.isArray(t("apartment.bedroom.items")) && t("apartment.bedroom.items").map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>
