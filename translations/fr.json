@@ -137,10 +137,10 @@
   },
   "home": {
     "hero": {
-      "badge": "Marais • 11ème Arrondissement",
+      "badge": "Entre Oberkampf et Bastille • 11ème Arrondissement",
       "title": "Bienvenue au",
       "titleHighlight": "Cœur de Paris",
-      "subtitle": "Votre guide complet pour profiter du Marais",
+      "subtitle": "Votre guide complet pour profiter de Paris",
       "address": "8 Impasse Saint-Sébastien, 75011 Paris",
       "ctaExplore": "Commencez à Explorer",
       "ctaGuide": "Guide de l'Appartement"
@@ -190,20 +190,20 @@
     },
     "neighborhood": {
       "badge": "À propos du Quartier",
-      "title": "Vous êtes au cœur du Marais",
-      "subtitle": "Le Marais combine histoire médiévale et vie moderne vibrante. Rues pavées, boutiques charmantes, gastronomie exceptionnelle et l'une des scènes culturelles les plus riches de Paris. C'est le quartier parfait à explorer à pied !",
+      "title": "Vous êtes à Saint-Ambroise",
+      "subtitle": "Saint-Ambroise est un charmant quartier résidentiel du 11ème arrondissement. Position privilégiée entre trois des quartiers les plus vibrants de Paris : à 10min à pied du Marais historique, 8min de Bastille et 5min d'Oberkampf. Profitez de la tranquillité d'un quartier authentique avec toute l'animation des districts voisins à quelques pas.",
       "highlights": {
         "culture": {
-          "title": "Culture & Art",
-          "description": "Musées, galeries et architecture historique médiévale dans le quartier le plus charmant de Paris"
+          "title": "Localisation Idéale",
+          "description": "Entre Oberkampf, Bastille et le Marais. Accès facile aux quartiers historiques et à la vie nocturne"
         },
         "gastronomy": {
           "title": "Gastronomie",
-          "description": "Cafés traditionnels, bistrots modernes et marchés de rue avec produits artisanaux"
+          "description": "Restaurants authentiques, cafés de quartier et marchés locaux. Ambiance parisienne authentique"
         },
         "nightlife": {
           "title": "Vie Nocturne",
-          "description": "Bars cachés, cocktails d'auteur et ambiance bohème unique"
+          "description": "Bars d'Oberkampf à 5min, clubs de Bastille à 8min. Le meilleur de la nuit parisienne"
         }
       }
     },
@@ -211,17 +211,17 @@
       "title": "Conseils Rapides",
       "subtitle": "Informations essentielles pour votre séjour",
       "nearestMetro": "Métro le plus proche",
-      "metroValue": "Saint-Sébastien - Froissart",
-      "metroDetail": "Ligne 8 • 2min à pied",
+      "metroValue": "Richard Lenoir",
+      "metroDetail": "Ligne 5 • 157m à pied",
       "nearestSupermarket": "Supermarché proche",
       "supermarketValue": "Franprix",
       "supermarketDetail": "3min à pied • Ouvert dim",
       "nearestBakery": "Boulangerie la plus proche",
       "bakeryValue": "Boot Café",
       "bakeryDetail": "4min à pied • Ouvert 8h",
-      "location": "Au cœur du Marais",
+      "location": "Saint-Ambroise",
       "locationValue": "11ème Arrondissement",
-      "locationDetail": "Bastille • Le Marais",
+      "locationDetail": "Entre Oberkampf et Bastille",
       "emergency": {
         "title": "Numéros d'Urgence",
         "subtitle": "Enregistrez ces numéros dans votre téléphone",
@@ -254,7 +254,7 @@
     "about": {
       "title": "À propos de l'Appartement",
       "address": "8 Impasse Saint Sébastien<br />75011 Paris, France",
-      "description": "Votre guide complet pour profiter du meilleur de Paris et du quartier Le Marais."
+      "description": "Votre guide complet pour profiter du meilleur de Paris depuis le quartier Saint-Ambroise."
     },
     "quickLinks": {
       "title": "Liens Rapides",
@@ -272,7 +272,7 @@
     },
     "location": {
       "title": "Localisation",
-      "description": "Au cœur du Marais, l'un des quartiers les plus charmants et vibrants de Paris."
+      "description": "À Saint-Ambroise, 11ème arrondissement. Entre Oberkampf, Bastille et à 10min à pied du Marais."
     },
     "madeWith": "Fait avec",
     "forGuests": "pour nos hôtes",

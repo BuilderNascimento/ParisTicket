@@ -197,7 +197,7 @@ export default function TransportePage() {
               { name: "Versalhes", time: "60 min", line: "Metrô + RER C" },
               { name: "CDG Aeroporto", time: "50 min", line: "Metrô + RER B" },
               { name: "Disneyland", time: "45 min", line: "Metrô + RER A" },
-              { name: "Marais (centro)", time: "2 min", line: "A pé!" },
+              { name: "Bastille", time: "8 min", line: "A pé!" },
             ].map((dest) => (
               <div key={dest.name} className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
                 <p className="font-bold text-lg mb-1">{dest.name}</p>

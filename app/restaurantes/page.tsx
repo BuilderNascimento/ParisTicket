@@ -27,7 +27,7 @@ export default function RestaurantesPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
           <p className="text-gray-700">
-            <strong>💡 Dica Geral:</strong> O Marais é um dos melhores bairros gastronômicos de Paris! 
+            <strong>💡 Dica Geral:</strong> Saint-Ambroise e Oberkampf formam um dos melhores polos gastronômicos de Paris! 
             A maioria dos restaurantes não aceita reserva, então chegue cedo (antes das 19h30) ou esteja 
             preparado para esperar um pouco. Vale muito a pena! 🍷
           </p>

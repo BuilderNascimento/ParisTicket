@@ -27,9 +27,9 @@ export default function BaresPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded-r-lg">
           <p className="text-gray-700">
-            <strong>🌙 Vida Noturna no Marais:</strong> O bairro é famoso por sua vida noturna diversa e 
-            animada! Tem desde cocktail bars sofisticados até pubs descontraídos. A maioria abre após as 18h 
-            e fica aberto até 2h. Happy hour geralmente é das 17h às 20h. 🍸
+            <strong>🌙 Vida Noturna em Saint-Ambroise e Oberkampf:</strong> Você está no coração da vida noturna parisiense! 
+            Oberkampf (5min) e Bastille (8min) têm desde cocktail bars sofisticados até pubs descontraídos. A maioria abre 
+            após as 18h e fica aberto até 2h. Happy hour geralmente é das 17h às 20h. 🍸
           </p>
         </div>
       </section>

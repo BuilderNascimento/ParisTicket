@@ -1,6 +1,6 @@
-# 🏠 Guide ISS Paris - Apartamento no Marais
+# 🏠 Guide ISS Paris - Apartamento em Saint-Ambroise
 
-> Seu guia digital completo para aproveitar Paris a partir do 8 Impasse Saint-Sébastien
+> Seu guia digital completo para aproveitar Paris a partir do 8 Impasse Saint-Sébastien (11º arrondissement)
 
 ![Status](https://img.shields.io/badge/status-100%25%20funcional-success)
 ![Idiomas](https://img.shields.io/badge/idiomas-5-blue)
@@ -11,7 +11,7 @@
 
 ## 🌟 Visão Geral
 
-Site/PWA criado para hóspedes do apartamento **8 Impasse Saint-Sébastien** no coração do **Marais, Paris**.
+Site/PWA criado para hóspedes do apartamento **8 Impasse Saint-Sébastien** no bairro **Saint-Ambroise** (11º arr), entre Oberkampf e Bastille, a 10min a pé do Marais.
 
 ### ✨ Funcionalidades Principais
 

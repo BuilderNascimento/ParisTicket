@@ -62,7 +62,7 @@
 1. **Hero Section**
    - Background image com overlay
    - Título "Bienvenue au Cœur de Paris"
-   - Badge localização (Marais)
+   - Badge localização (Entre Oberkampf et Bastille • 11ème)
    - 2 CTAs
    - Scroll indicator
 
