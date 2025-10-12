@@ -65,9 +65,9 @@ export default function Header() {
       label: t("header.apartment"),
       icon: Building2,
       items: [
-        { label: t("header.apartment_wifi"), href: "/apartamento", icon: "🔑" },
-        { label: t("header.apartment_rules"), href: "/apartamento#regras", icon: "📋" },
-        { label: t("header.apartment_appliances"), href: "/apartamento#eletros", icon: "⚡" },
+        { label: t("header.apartment_wifi"), href: "/apartamento", icon: "🔑", badge: undefined },
+        { label: t("header.apartment_rules"), href: "/apartamento#regras", icon: "📋", badge: undefined },
+        { label: t("header.apartment_appliances"), href: "/apartamento#eletros", icon: "⚡", badge: undefined },
       ],
     },
     {
@@ -86,7 +86,7 @@ export default function Header() {
           title: "Vida Noturna",
           items: [
             { label: t("header.bars"), href: "/bares", icon: "🍺", badge: "7" },
-            { label: t("header.wineBars"), href: "/bares#wine", icon: "🍷" },
+            { label: t("header.wineBars"), href: "/bares#wine", icon: "🍷", badge: undefined },
           ],
         },
       ],
@@ -95,16 +95,16 @@ export default function Header() {
       label: t("header.services"),
       icon: ShoppingBag,
       items: [
-        { label: t("header.supermarkets"), href: "/compras", icon: "🛒" },
-        { label: t("header.pharmacies"), href: "/compras#farmacias", icon: "💊" },
+        { label: t("header.supermarkets"), href: "/compras", icon: "🛒", badge: undefined },
+        { label: t("header.pharmacies"), href: "/compras#farmacias", icon: "💊", badge: undefined },
       ],
     },
     {
       label: t("header.transport"),
       icon: Train,
       items: [
-        { label: t("header.metro"), href: "/transporte", icon: "🚇" },
-        { label: t("header.fromAirport"), href: "/transporte#aeroporto", icon: "✈️" },
+        { label: t("header.metro"), href: "/transporte", icon: "🚇", badge: undefined },
+        { label: t("header.fromAirport"), href: "/transporte#aeroporto", icon: "✈️", badge: undefined },
       ],
     },
     {
@@ -116,17 +116,17 @@ export default function Header() {
         {
           title: "Culture",
           items: [
-            { label: t("header.mainAttractions"), href: "/tours", icon: "🗼" },
-            { label: t("header.museums"), href: "/tours#museus", icon: "🎨" },
-            { label: t("header.guidedTours"), href: "/tours#guiados", icon: "🏛️" },
+            { label: t("header.mainAttractions"), href: "/tours", icon: "🗼", badge: undefined },
+            { label: t("header.museums"), href: "/tours#museus", icon: "🎨", badge: undefined },
+            { label: t("header.guidedTours"), href: "/tours#guiados", icon: "🏛️", badge: undefined },
           ],
         },
         {
           title: "Expériences",
           items: [
-            { label: t("header.shows"), href: "/tours#shows", icon: "🎭" },
-            { label: t("header.gastronomy"), href: "/tours#gastronomia", icon: "🍷" },
-            { label: t("header.boatTours"), href: "/tours#barco", icon: "🚤" },
+            { label: t("header.shows"), href: "/tours#shows", icon: "🎭", badge: undefined },
+            { label: t("header.gastronomy"), href: "/tours#gastronomia", icon: "🍷", badge: undefined },
+            { label: t("header.boatTours"), href: "/tours#barco", icon: "🚤", badge: undefined },
           ],
         },
       ],
