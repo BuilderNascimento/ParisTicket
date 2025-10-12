@@ -74,7 +74,7 @@ export default function CafesPage() {
                 <li>🪑 Sentado é mais caro que no balcão</li>
                 <li>🥖 Baguette dura 1 dia só</li>
                 <li>❄️ Pão congela bem!</li>
-                <li>🏆 Boulangerie > Supermercado</li>
+                <li>🏆 Boulangerie &gt; Supermercado</li>
                 <li>🚫 Domingo muitos fecham</li>
               </ul>
             </div>
