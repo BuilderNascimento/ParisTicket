@@ -17,6 +17,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>("fr");
   const [translations, setTranslations] = useState<Record<string, any>>({});
   const [isLoading, setIsLoading] = useState(true);
+  const [isInitialized, setIsInitialized] = useState(false);
 
   // Load from localStorage first (before mounting)
   useEffect(() => {
@@ -24,13 +25,17 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     if (saved && ["fr", "en", "es", "pt", "it"].includes(saved)) {
       setLanguageState(saved as Language);
     }
+    setIsInitialized(true);
   }, []);
 
   // Load translations
   useEffect(() => {
+    if (!isInitialized) return; // Wait for initialization
+    
     const loadTranslations = async () => {
       setIsLoading(true);
       try {
+        console.log(`🔄 Loading translations for ${language}...`);
         const response = await fetch(`/translations/${language}.json`);
         if (!response.ok) {
           throw new Error(`Failed to load ${language} translations`);
@@ -42,9 +47,11 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
         console.error("Error loading translations:", error);
         // Fallback to French
         try {
+          console.log(`🔄 Fallback to French...`);
           const response = await fetch(`/translations/fr.json`);
           if (response.ok) {
             const data = await response.json();
+            console.log(`✅ Fallback French loaded:`, Object.keys(data));
             setTranslations(data);
           }
         } catch (fallbackError) {
@@ -55,7 +62,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       }
     };
     loadTranslations();
-  }, [language]);
+  }, [language, isInitialized]);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
