@@ -14,17 +14,15 @@ import {
   Train,
   Ticket,
   Info,
-  ChevronDown,
-  Globe
+  ChevronDown
 } from "lucide-react";
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
-  const [showLangMenu, setShowLangMenu] = useState(false);
   const pathname = usePathname();
-  const { language, setLanguage, t } = useLanguage();
+  const { t } = useLanguage();
 
   // Scroll behavior
   useEffect(() => {
@@ -49,16 +47,6 @@ export default function Header() {
       document.body.style.overflow = "unset";
     }
   }, [isMobileMenuOpen]);
-
-  const languages = [
-    { code: "fr" as const, label: "Français", flag: "🇫🇷" },
-    { code: "en" as const, label: "English", flag: "🇬🇧" },
-    { code: "es" as const, label: "Español", flag: "🇪🇸" },
-    { code: "pt" as const, label: "Português", flag: "🇧🇷" },
-    { code: "it" as const, label: "Italiano", flag: "🇮🇹" },
-  ];
-
-  const currentLang = languages.find((l) => l.code === language) || languages[0];
 
   const navigationItems = [
     {
@@ -289,48 +277,8 @@ export default function Header() {
               </Link>
             </nav>
 
-            {/* Language Selector & Mobile Menu Button */}
-            <div className="flex items-center gap-4">
-              {/* Language Selector */}
-              <div className="relative">
-                <button
-                  onClick={() => setShowLangMenu(!showLangMenu)}
-                  onBlur={() => setTimeout(() => setShowLangMenu(false), 200)}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-lg font-medium text-sm transition-colors ${
-                    isScrolled || pathname !== "/"
-                      ? "text-gray-700 hover:bg-gray-100"
-                      : "text-white hover:bg-white/10"
-                  }`}
-                >
-                  <Globe className="w-4 h-4" />
-                  <span className="hidden sm:inline">{currentLang.flag}</span>
-                  <ChevronDown className="w-4 h-4" />
-                </button>
-
-                {showLangMenu && (
-                  <div className="absolute right-0 top-full mt-2 bg-white rounded-lg shadow-xl border border-gray-100 py-1 min-w-[180px] z-50">
-                    {languages.map((lang) => (
-                      <button
-                        key={lang.code}
-                        onClick={() => {
-                          setLanguage(lang.code);
-                          setShowLangMenu(false);
-                        }}
-                        className={`w-full flex items-center gap-3 px-4 py-2 hover:bg-gray-50 transition-colors ${
-                          language === lang.code ? "bg-primary-50 text-primary-700" : "text-gray-900"
-                        }`}
-                      >
-                        <span className="text-xl">{lang.flag}</span>
-                        <span className="text-sm font-medium">{lang.label}</span>
-                        {language === lang.code && (
-                          <span className="ml-auto text-primary-600">✓</span>
-                        )}
-                      </button>
-                    ))}
-                  </div>
-                )}
-              </div>
-
+            {/* Mobile Menu Button */}
+            <div className="flex items-center">
               {/* MOBILE MENU BUTTON */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

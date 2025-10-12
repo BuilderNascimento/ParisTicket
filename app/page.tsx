@@ -5,10 +5,10 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Home, UtensilsCrossed, Coffee, Wine, ShoppingBag, Train, Ticket, Info, MapPin, Building2, Sparkles } from "lucide-react";
 
 export default function HomePage() {
-  const { t, isLoading } = useLanguage();
+  const { t } = useLanguage();
 
-  // Show loading while translations are being fetched
-  if (isLoading) {
+  // Removed loading state - translations are now static
+  if (false) {
     return (
       <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-600 to-purple-600">
         <div className="text-center">
