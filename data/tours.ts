@@ -500,4 +500,171 @@ export const tours: Tour[] = [
     tips: "NUNCA tente atravessar a rua para chegar ao arco - use a passagem subterrânea! Vá ao pôr do sol para vistas mágicas. Depois, desça a Champs-Élysées caminhando até a Place de la Concorde (20 min). Use sapatos confortáveis para as escadas.",
     keywords: ["arco triunfo", "arc triomphe", "champs elysees", "vista", "paris", "monumento", "terraço"],
   },
+  {
+    id: "5",
+    slug: "musee-orsay-van-gogh-auvers",
+    name: "Musée d'Orsay + Van Gogh à Auvers",
+    title: "Musée d'Orsay + Van Gogh à Auvers-sur-Oise",
+    shortDescription: "Visitez le Musée d'Orsay et explorez le village où Van Gogh a passé ses derniers jours",
+    description: "Combinez deux destinations fascinantes en une seule journée : le célèbre Musée d'Orsay, abritant la plus grande collection d'art impressionniste au monde, et Auvers-sur-Oise, le pittoresque village où Vincent van Gogh a vécu et peint durant les 70 derniers jours de sa vie. Au musée, admirez les chefs-d'œuvre de Monet, Renoir, Cézanne et bien sûr Van Gogh. À Auvers, visitez les lieux qui ont inspiré ses peintures les plus célèbres.",
+    price: 22,
+    priceDisplay: "À partir de €22",
+    currency: "EUR",
+    duration: "Journée complète",
+    images: [
+      "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800",
+      "https://images.unsplash.com/photo-1564868109937-e18d6c4b80f7?w=800",
+      "https://images.unsplash.com/photo-1549887534-1541e9326642?w=800"
+    ],
+    highlights: [
+      "Entrée au Musée d'Orsay",
+      "Plus grande collection impressionniste du monde",
+      "Autoportraits de Van Gogh",
+      "Visite d'Auvers-sur-Oise",
+      "Église et champs peints par Van Gogh",
+      "Tombe de Van Gogh"
+    ],
+    included: [
+      "Billet Musée d'Orsay",
+      "Accès aux expositions permanentes",
+      "Informations sur Auvers-sur-Oise"
+    ],
+    notIncluded: [
+      "Transport vers Auvers",
+      "Audioguide",
+      "Déjeuner"
+    ],
+    category: "museum",
+    subcategory: "Art Impressionniste",
+    rating: 4.7,
+    reviewCount: 3420,
+    reviews: [
+      {
+        id: "r5-1",
+        author: "Carla M.",
+        country: "Brésil",
+        date: "22 janvier 2025",
+        rating: 5,
+        comment: "Musée incroyable ! La visite à Auvers était émouvante, voir où Van Gogh a vécu.",
+        verified: true
+      }
+    ],
+    isPopular: false,
+    isBestSeller: false,
+    hasSkipLine: false,
+    hasDiscount: false,
+    affiliateUrl: "https://www.getyourguide.com/fr/paris-l16/billet-pour-le-musee-dorsay-et-van-gogh-a-auvers-sur-oise-t65756/",
+    location: "Paris, France",
+    meetingPoint: "Musée d'Orsay, 1 Rue de la Légion d'Honneur, 75007",
+    howToGetThere: "Métro : Solférino (Ligne 12) ou RER C Musée d'Orsay",
+    nearestMetro: "Solférino (Ligne 12)",
+    walkingTimeFromApartment: "20 min en métro",
+    importantInfo: [
+      "Auvers est à 30km de Paris (1h de train)",
+      "Billet mobile accepté",
+      "Le musée est fermé le lundi"
+    ],
+    requirements: [
+      "Voucher digital",
+      "Tenue confortable pour marcher"
+    ],
+    freeCancellation: true,
+    instantConfirmation: true,
+    mobileTicket: true,
+    faqs: [
+      {
+        question: "Comment se rendre à Auvers-sur-Oise ?",
+        answer: "Train direct depuis Gare du Nord ou Gare Saint-Lazare (1h de trajet)."
+      }
+    ],
+    tips: "Visitez d'abord le musée le matin, puis prenez le train l'après-midi pour Auvers. Le village est petit et se visite facilement en 2-3 heures.",
+    keywords: ["orsay", "van gogh", "impressionnisme", "auvers", "musée", "art"],
+  },
+  {
+    id: "6",
+    slug: "versailles-passport-complet",
+    name: "Château de Versailles - Passeport Complet",
+    title: "Château de Versailles - Passeport Complet avec Jardins",
+    shortDescription: "Accès total au Château, Jardins, Trianon et Domaine de Marie-Antoinette",
+    description: "Passez une journée complète à explorer l'ancienne résidence des rois de France. Ce passeport inclut TOUT : Château principal avec la Galerie des Glaces, jardins magnifiques, Grand et Petit Trianon, et le refuge privé de Marie-Antoinette. Au printemps et en été, profitez des Grandes Eaux Musicales !",
+    price: 28,
+    priceDisplay: "À partir de €28",
+    currency: "EUR",
+    duration: "Journée complète (6-8 heures)",
+    images: [
+      "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800",
+      "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800",
+      "https://images.unsplash.com/photo-1566037469031-eda4b0a90944?w=800",
+      "https://images.unsplash.com/photo-1548013146-72479768bada?w=800"
+    ],
+    highlights: [
+      "Accès complet au domaine",
+      "Galerie des Glaces",
+      "Appartements Royaux",
+      "Jardins avec 2000 fontaines",
+      "Trianon de Marie-Antoinette",
+      "Grandes Eaux Musicales (avr-oct)"
+    ],
+    included: [
+      "Entrée au Château avec horaire réservé",
+      "Accès aux jardins et Trianon",
+      "Grandes Eaux Musicales (saison)",
+      "Expositions temporaires"
+    ],
+    notIncluded: [
+      "Transport (train RER C)",
+      "Audioguide (€5 sur place)",
+      "Déjeuner"
+    ],
+    category: "monument",
+    subcategory: "Châteaux",
+    rating: 4.8,
+    reviewCount: 18650,
+    reviews: [
+      {
+        id: "r6-1",
+        author: "Ricardo P.",
+        country: "Brésil",
+        date: "19 janvier 2025",
+        rating: 5,
+        comment: "Incontournable ! Réservez toute la journée, il y a beaucoup à voir. Les jardins sont spectaculaires !",
+        verified: true
+      }
+    ],
+    isPopular: true,
+    isBestSeller: true,
+    hasSkipLine: true,
+    hasDiscount: false,
+    affiliateUrl: "https://www.getyourguide.com/fr/paris-l16/billet-passeport-dacces-complet-au-chateau-de-versailles-t59565/",
+    location: "Versailles, France",
+    meetingPoint: "Place d'Armes, 78000 Versailles",
+    howToGetThere: "RER C jusqu'à Versailles Château Rive Gauche",
+    nearestMetro: "RER C Versailles Château",
+    walkingTimeFromApartment: "45 min en RER C direct",
+    importantInfo: [
+      "Réservez 2-3 semaines à l'avance",
+      "Arrivez 15min avant l'horaire",
+      "Beaucoup de marche - chaussures confortables",
+      "Apportez eau et snack"
+    ],
+    requirements: [
+      "Billet avec horaire réservé",
+      "Voucher digital accepté"
+    ],
+    freeCancellation: true,
+    instantConfirmation: true,
+    mobileTicket: true,
+    faqs: [
+      {
+        question: "Combien de temps faut-il ?",
+        answer: "Minimum 4 heures, idéalement toute la journée pour tout voir tranquillement."
+      },
+      {
+        question: "Les Grandes Eaux ont lieu tous les jours ?",
+        answer: "Seulement mardi, vendredi, samedi et dimanche d'avril à octobre."
+      }
+    ],
+    tips: "Arrivez tôt le matin pour éviter la foule. Visitez le château d'abord, puis les jardins après le déjeuner. Ne manquez pas le Hameau de Marie-Antoinette !",
+    keywords: ["versailles", "château", "louis xiv", "marie antoinette", "jardins", "trianon"],
+  },
 ];
