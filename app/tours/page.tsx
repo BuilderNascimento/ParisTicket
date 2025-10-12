@@ -76,16 +76,16 @@ export default function ToursPage() {
             backgroundPosition: "center",
           }}
         />
-        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 text-center">
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-28 pb-20 text-center">
           <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-4 py-2 rounded-full mb-6">
             <Sparkles className="w-5 h-5 text-yellow-300" />
             <span className="font-semibold">{t("tours.hero.badge")}</span>
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             {t("tours.hero.title")}
           </h1>
-          <p className="text-xl md:text-2xl mb-4 text-white/90">
+          <p className="text-lg md:text-2xl mb-4 text-white/90">
             {t("tours.hero.subtitle")}
           </p>
 

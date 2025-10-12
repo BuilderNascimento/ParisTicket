@@ -10,13 +10,13 @@ export default function InfoPage() {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
-      <section className="bg-gradient-to-r from-red-600 to-red-500 text-white py-16">
+      <section className="bg-gradient-to-r from-red-600 to-red-500 text-white pt-24 pb-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">
+            <h1 className="text-3xl md:text-5xl font-bold mb-4 leading-tight">
               {t("info.title")}
             </h1>
-            <p className="text-xl text-red-50 max-w-2xl mx-auto">
+            <p className="text-lg md:text-xl text-red-50 max-w-2xl mx-auto">
               {t("info.subtitle")}
             </p>
           </div>
