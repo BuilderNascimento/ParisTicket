@@ -1,0 +1,171 @@
+{
+  "header": {
+    "home": "Inicio",
+    "apartment": "El Apartamento",
+    "eatDrink": "Comer y Beber",
+    "services": "Servicios",
+    "transport": "Transporte",
+    "exploreParis": "Explorar París",
+    "info": "Información",
+    "needHelp": "¿Necesitas ayuda?",
+    "yourGuide": "Tu guía en París",
+    "apartment_wifi": "WiFi y Llaves",
+    "apartment_rules": "Reglas de la casa",
+    "apartment_appliances": "Electrodomésticos",
+    "restaurants": "Restaurantes",
+    "cafes": "Cafés y Panaderías",
+    "bars": "Bares",
+    "wineBars": "Bares de vino",
+    "supermarkets": "Supermercados",
+    "pharmacies": "Farmacias",
+    "metro": "Metro",
+    "fromAirport": "Desde el aeropuerto",
+    "mainAttractions": "Principales atracciones",
+    "museums": "Museos",
+    "guidedTours": "Tours guiados",
+    "shows": "Espectáculos",
+    "gastronomy": "Gastronomía",
+    "boatTours": "Paseos en barco",
+    "withDiscount": "Con descuento"
+  },
+  "tours": {
+    "hero": {
+      "badge": "Socio Oficial de GetYourGuide",
+      "title": "Explora París con Descuento",
+      "subtitle": "Entradas oficiales al mejor precio y sin colas",
+      "trust1": "Reserva con seguridad",
+      "trust2": "Cancelación flexible",
+      "trust3": "Soporte en español"
+    },
+    "filters": {
+      "search": "Buscar tours, museos, atracciones...",
+      "filters": "Filtros",
+      "category": "Categoría",
+      "allCategories": "Todas",
+      "museums": "🏛️ Museos",
+      "monuments": "🗿 Monumentos",
+      "themeParks": "🎢 Parques temáticos",
+      "experiences": "✨ Experiencias",
+      "toursGuided": "🚶 Tours guiados",
+      "priceRange": "Rango de precio",
+      "allPrices": "Todos los precios",
+      "sortBy": "Ordenar por",
+      "popular": "Más populares",
+      "priceLow": "Precio más bajo",
+      "priceHigh": "Precio más alto",
+      "rating": "Mejor valoración",
+      "clearFilters": "Borrar filtros",
+      "results": "resultados encontrados",
+      "result": "resultado encontrado"
+    },
+    "card": {
+      "from": "Desde",
+      "perPerson": "por persona",
+      "seeDetails": "Ver Detalles",
+      "reviews": "reseñas",
+      "freeCancellation": "Cancelación gratis",
+      "instantConfirmation": "Confirmación inmediata",
+      "mobileTicket": "Entrada móvil"
+    },
+    "whyBook": {
+      "title": "¿Por qué reservar con nosotros?",
+      "bestPrice": "Mejor Precio Garantizado",
+      "bestPriceDesc": "¿Encontraste más barato? Te devolvemos la diferencia",
+      "guaranteed": "Entrada Garantizada",
+      "guaranteedDesc": "Entradas oficiales sin riesgo de fraude",
+      "support": "Soporte en Español",
+      "supportDesc": "¿Dudas? Estoy aquí para ayudarte",
+      "flexible": "Cancelación Flexible",
+      "flexibleDesc": "¿Cambio de planes? Cancela hasta 24h antes",
+      "instant": "Confirmación Instantánea",
+      "instantDesc": "Recibe tus entradas por email al instante",
+      "reviews": "Más de 1M de Reseñas",
+      "reviewsDesc": "Millones de viajeros confían en GetYourGuide"
+    },
+    "noResults": {
+      "title": "No se encontraron resultados",
+      "desc": "Intenta ajustar tus filtros o búsqueda."
+    },
+    "detail": {
+      "breadcrumb": "Tours y Entradas",
+      "about": "Sobre esta experiencia",
+      "highlights": "Destacados",
+      "included": "Qué está incluido",
+      "includedLabel": "Incluido",
+      "notIncluded": "No incluido",
+      "importantInfo": "Información Importante",
+      "howToGetThere": "Cómo llegar",
+      "meetingPoint": "Punto de encuentro",
+      "nearestMetro": "Metro más cercano",
+      "fromApartment": "Desde el apartamento",
+      "reviews": "Reseñas de clientes",
+      "reviewsCount": "reseñas",
+      "faqs": "Preguntas Frecuentes",
+      "youMayLike": "También te puede gustar",
+      "bookNow": "Reservar ahora",
+      "noHiddenFees": "Sin tarifas ocultas",
+      "finalPrice": "Precio final garantizado",
+      "securePayment": "Pago seguro",
+      "processedBy": "Reserva procesada por",
+      "officialPartner": "Socio oficial con más de 1M de reseñas",
+      "verified": "Verificado"
+    },
+    "categories": {
+      "museum": "🏛️ Museo",
+      "monument": "🗿 Monumento",
+      "themePark": "🎢 Parque temático",
+      "experience": "✨ Experiencia",
+      "tour": "🚶 Tour"
+    },
+    "badges": {
+      "bestSeller": "⭐ Más vendido",
+      "skipLine": "⚡ Sin colas",
+      "discount": "% DESC"
+    }
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Error",
+    "close": "Cerrar",
+    "back": "Volver",
+    "next": "Siguiente",
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "confirm": "Confirmar",
+    "yes": "Sí",
+    "no": "No"
+  },
+  "footer": {
+    "about": {
+      "title": "Sobre el Apartamento",
+      "address": "8 Impasse Saint Sébastien<br />75011 París, Francia",
+      "description": "Tu guía completa para disfrutar de lo mejor de París desde el barrio Saint-Ambroise."
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "apartmentGuide": "Guía del Apartamento",
+      "howToGet": "Cómo Llegar",
+      "usefulInfo": "Información Útil",
+      "tours": "Tours & Entradas"
+    },
+    "explore": {
+      "title": "Explorar",
+      "restaurants": "Restaurantes",
+      "cafes": "Cafés & Panaderías",
+      "bars": "Bares & Vida Nocturna",
+      "shopping": "Compras"
+    },
+    "location": {
+      "title": "Ubicación",
+      "description": "En Saint-Ambroise, distrito 11. Entre Oberkampf, Bastille y a 10min caminando de Le Marais."
+    },
+    "madeWith": "Hecho con",
+    "forGuests": "para nuestros huéspedes",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "buildify": {
+      "tagline": "Transformamos ideas en soluciones digitales",
+      "madeBy": "Creado por"
+    }
+  }
+}
+

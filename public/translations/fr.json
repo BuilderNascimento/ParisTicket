@@ -1,0 +1,369 @@
+{
+  "header": {
+    "home": "Accueil",
+    "apartment": "L'Appartement",
+    "eatDrink": "Manger & Boire",
+    "services": "Services",
+    "transport": "Transport",
+    "exploreParis": "Explorer Paris",
+    "info": "Informations",
+    "needHelp": "Besoin d'aide ?",
+    "yourGuide": "Votre guide à Paris",
+    "apartment_wifi": "WiFi et Clés",
+    "apartment_rules": "Règles de la maison",
+    "apartment_appliances": "Électroménagers",
+    "restaurants": "Restaurants",
+    "cafes": "Cafés & Boulangeries",
+    "bars": "Bars",
+    "wineBars": "Bars à vin",
+    "supermarkets": "Supermarchés",
+    "pharmacies": "Pharmacies",
+    "metro": "Métro",
+    "fromAirport": "De l'aéroport",
+    "mainAttractions": "Principales attractions",
+    "museums": "Musées",
+    "guidedTours": "Visites guidées",
+    "shows": "Spectacles",
+    "gastronomy": "Gastronomie",
+    "boatTours": "Croisières",
+    "withDiscount": "Avec réduction"
+  },
+  "tours": {
+    "hero": {
+      "badge": "Partenaire Officiel GetYourGuide",
+      "title": "Explorez Paris avec Réduction",
+      "subtitle": "Billets officiels au meilleur prix et sans file d'attente",
+      "trust1": "Réservez en toute sécurité",
+      "trust2": "Annulation flexible",
+      "trust3": "Support en français"
+    },
+    "filters": {
+      "search": "Rechercher tours, musées, attractions...",
+      "filters": "Filtres",
+      "category": "Catégorie",
+      "allCategories": "Toutes",
+      "museums": "🏛️ Musées",
+      "monuments": "🗿 Monuments",
+      "themeParks": "🎢 Parcs à thème",
+      "experiences": "✨ Expériences",
+      "toursGuided": "🚶 Visites guidées",
+      "priceRange": "Gamme de prix",
+      "allPrices": "Tous les prix",
+      "sortBy": "Trier par",
+      "popular": "Plus populaires",
+      "priceLow": "Prix le plus bas",
+      "priceHigh": "Prix le plus élevé",
+      "rating": "Meilleure note",
+      "clearFilters": "Effacer les filtres",
+      "results": "résultats trouvés",
+      "result": "résultat trouvé"
+    },
+    "card": {
+      "from": "À partir de",
+      "perPerson": "par personne",
+      "seeDetails": "Voir les détails",
+      "reviews": "avis",
+      "freeCancellation": "Annulation gratuite",
+      "instantConfirmation": "Confirmation immédiate",
+      "mobileTicket": "Billet mobile"
+    },
+    "whyBook": {
+      "title": "Pourquoi réserver avec nous ?",
+      "bestPrice": "Meilleur Prix Garanti",
+      "bestPriceDesc": "Trouvé moins cher ? On vous rembourse la différence",
+      "guaranteed": "Entrée Garantie",
+      "guaranteedDesc": "Billets officiels sans risque de fraude",
+      "support": "Support en Français",
+      "supportDesc": "Des questions ? Je suis là pour vous aider",
+      "flexible": "Annulation Flexible",
+      "flexibleDesc": "Plans changés ? Annulez jusqu'à 24h avant",
+      "instant": "Confirmation Instantanée",
+      "instantDesc": "Recevez vos billets par email immédiatement",
+      "reviews": "Plus d'1M d'Avis",
+      "reviewsDesc": "Des millions de voyageurs font confiance à GetYourGuide"
+    },
+    "noResults": {
+      "title": "Aucun résultat trouvé",
+      "desc": "Essayez d'ajuster vos filtres ou votre recherche."
+    },
+    "detail": {
+      "breadcrumb": "Tours & Billets",
+      "about": "À propos de cette expérience",
+      "highlights": "Points forts",
+      "included": "Ce qui est inclus",
+      "includedLabel": "Inclus",
+      "notIncluded": "Non inclus",
+      "importantInfo": "Informations Importantes",
+      "howToGetThere": "Comment s'y rendre",
+      "meetingPoint": "Point de rencontre",
+      "nearestMetro": "Métro le plus proche",
+      "fromApartment": "Depuis l'appartement",
+      "reviews": "Avis des clients",
+      "reviewsCount": "avis",
+      "faqs": "Questions Fréquentes",
+      "youMayLike": "Vous aimerez aussi",
+      "bookNow": "Réserver maintenant",
+      "noHiddenFees": "Sans frais cachés",
+      "finalPrice": "Prix final garanti",
+      "securePayment": "Paiement sécurisé",
+      "processedBy": "Réservation traitée par",
+      "officialPartner": "Partenaire officiel avec plus d'1M d'avis",
+      "verified": "Vérifié"
+    },
+    "categories": {
+      "museum": "🏛️ Musée",
+      "monument": "🗿 Monument",
+      "themePark": "🎢 Parc à thème",
+      "experience": "✨ Expérience",
+      "tour": "🚶 Visite"
+    },
+    "badges": {
+      "bestSeller": "⭐ Meilleure vente",
+      "skipLine": "⚡ Coupe-file",
+      "discount": "% OFF"
+    }
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Erreur",
+    "close": "Fermer",
+    "back": "Retour",
+    "next": "Suivant",
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "yes": "Oui",
+    "no": "Non"
+  },
+  "home": {
+    "hero": {
+      "badge": "Entre Oberkampf et Bastille • 11ème Arrondissement",
+      "title": "Bienvenue au",
+      "titleHighlight": "Cœur de Paris",
+      "subtitle": "Votre guide complet pour profiter de Paris",
+      "address": "8 Impasse Saint-Sébastien, 75011 Paris",
+      "ctaExplore": "Commencez à Explorer",
+      "ctaGuide": "Guide de l'Appartement"
+    },
+    "quickAccess": {
+      "title": "Explorer par Catégorie",
+      "subtitle": "Tout ce dont vous avez besoin pour profiter de Paris est ici, bien organisé pour vous",
+      "explore": "Explorer",
+      "cards": {
+        "apartment": {
+          "title": "Guide de l'Appartement",
+          "subtitle": "WiFi, clés et tout sur l'appartement"
+        },
+        "restaurants": {
+          "title": "Où Manger",
+          "subtitle": "12 restaurants à quelques pas",
+          "badge": "12 lieux"
+        },
+        "cafes": {
+          "title": "Cafés & Boulangeries",
+          "subtitle": "Meilleur petit-déjeuner du quartier",
+          "badge": "8 lieux"
+        },
+        "bars": {
+          "title": "Bars & Vie Nocturne",
+          "subtitle": "Profitez de la nuit parisienne",
+          "badge": "7 lieux"
+        },
+        "shopping": {
+          "title": "Shopping & Supermarchés",
+          "subtitle": "Où acheter l'essentiel"
+        },
+        "transport": {
+          "title": "Transport",
+          "subtitle": "Comment se déplacer à Paris"
+        },
+        "tours": {
+          "title": "Tours & Attractions",
+          "subtitle": "Explorez Paris avec réduction",
+          "badge": "Recommandé"
+        },
+        "info": {
+          "title": "Informations Utiles",
+          "subtitle": "Urgences, conseils et numéros"
+        }
+      }
+    },
+    "neighborhood": {
+      "badge": "À propos du Quartier",
+      "title": "Vous êtes à Saint-Ambroise",
+      "subtitle": "Saint-Ambroise est un charmant quartier résidentiel du 11ème arrondissement. Position privilégiée entre trois des quartiers les plus vibrants de Paris : à 10min à pied du Marais historique, 8min de Bastille et 5min d'Oberkampf. Profitez de la tranquillité d'un quartier authentique avec toute l'animation des districts voisins à quelques pas.",
+      "highlights": {
+        "culture": {
+          "title": "Localisation Idéale",
+          "description": "Entre Oberkampf, Bastille et le Marais. Accès facile aux quartiers historiques et à la vie nocturne"
+        },
+        "gastronomy": {
+          "title": "Gastronomie",
+          "description": "Restaurants authentiques, cafés de quartier et marchés locaux. Ambiance parisienne authentique"
+        },
+        "nightlife": {
+          "title": "Vie Nocturne",
+          "description": "Bars d'Oberkampf à 5min, clubs de Bastille à 8min. Le meilleur de la nuit parisienne"
+        }
+      }
+    },
+    "quickTips": {
+      "title": "Conseils Rapides",
+      "subtitle": "Informations essentielles pour votre séjour",
+      "nearestMetro": "Métro le plus proche",
+      "metroValue": "Richard Lenoir",
+      "metroDetail": "Ligne 5 • 157m à pied",
+      "nearestSupermarket": "Supermarché proche",
+      "supermarketValue": "Franprix",
+      "supermarketDetail": "3min à pied • Ouvert dim",
+      "nearestBakery": "Boulangerie la plus proche",
+      "bakeryValue": "Boot Café",
+      "bakeryDetail": "4min à pied • Ouvert 8h",
+      "location": "Saint-Ambroise",
+      "locationValue": "11ème Arrondissement",
+      "locationDetail": "Entre Oberkampf et Bastille",
+      "emergency": {
+        "title": "Numéros d'Urgence",
+        "subtitle": "Enregistrez ces numéros dans votre téléphone",
+        "fire": "Pompiers",
+        "ambulance": "SAMU",
+        "police": "Police",
+        "general": "Urgence Générale"
+      }
+    },
+    "map": {
+      "title": "Tout autour de vous",
+      "subtitle": "Explorez le quartier et découvrez ce qui est à proximité",
+      "places": {
+        "bastille": "Place de la Bastille",
+        "oberkampf": "Rue Oberkampf",
+        "lemarais": "Le Marais",
+        "eiffel": "Tour Eiffel",
+        "louvre": "Louvre",
+        "notredame": "Notre-Dame",
+        "byMetro": "Métro",
+        "byFoot": "À pied"
+      }
+    },
+    "cta": {
+      "title": "Profitez de votre Séjour à Paris !",
+      "subtitle": "Explorez le guide et découvrez les meilleurs endroits du quartier",
+      "btnGuide": "Voir le Guide Complet",
+      "btnRestaurants": "Explorer les Restaurants"
+    }
+  },
+  "footer": {
+    "about": {
+      "title": "À propos de l'Appartement",
+      "address": "8 Impasse Saint Sébastien<br />75011 Paris, France",
+      "description": "Votre guide complet pour profiter du meilleur de Paris depuis le quartier Saint-Ambroise."
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "apartmentGuide": "Guide de l'Appartement",
+      "howToGet": "Comment Arriver",
+      "usefulInfo": "Informations Utiles",
+      "tours": "Tours & Billets"
+    },
+    "explore": {
+      "title": "Explorer",
+      "restaurants": "Restaurants",
+      "cafes": "Cafés & Boulangeries",
+      "bars": "Bars & Vie Nocturne",
+      "shopping": "Shopping"
+    },
+    "location": {
+      "title": "Localisation",
+      "description": "À Saint-Ambroise, 11ème arrondissement. Entre Oberkampf, Bastille et à 10min à pied du Marais."
+    },
+    "madeWith": "Fait avec",
+    "forGuests": "pour nos hôtes",
+    "allRightsReserved": "Tous les droits réservés.",
+    "buildify": {
+      "tagline": "Transformons les idées en solutions digitales",
+      "madeBy": "Créé par"
+    }
+  },
+  "apartment": {
+    "title": "🏠 Guide de l'Appartement",
+    "subtitle": "Tout ce que vous devez savoir pour vous sentir chez vous",
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "address": "📍 Adresse Complète",
+    "rules": "📋 Règles de la Maison",
+    "appliances": "⚡ Électroménagers",
+    "troubleshooting": "🔧 Dépannage",
+    "kitchen": {
+      "title": "🍳 Équipements de la Cuisine",
+      "items": [
+        "Machine à café Nespresso",
+        "Plaque à induction",
+        "Réfrigérateur complet",
+        "Micro-ondes",
+        "Lave-vaisselle",
+        "Grille-pain",
+        "Bouilloire électrique",
+        "Casseroles et poêles",
+        "Assiettes et couverts",
+        "Verres et coupes",
+        "Ustensiles de cuisine",
+        "Sel, huile, épices de base"
+      ]
+    },
+    "bathroom": {
+      "title": "🚿 Équipements de la Salle de Bain",
+      "items": [
+        "Serviettes de bain",
+        "Serviettes de toilette",
+        "Shampoing",
+        "Savon",
+        "Papier toilette",
+        "Sèche-cheveux"
+      ]
+    },
+    "bedroom": {
+      "title": "🛏️ Équipements de la Chambre",
+      "items": [
+        "Draps propres",
+        "Couvertures supplémentaires",
+        "Oreillers (2 par personne)",
+        "Cintres dans l'armoire",
+        "Table de chevet",
+        "Lampe de lecture"
+      ]
+    }
+  },
+  "restaurants": {
+    "title": "🍽️ Meilleurs Restaurants",
+    "subtitle": "Restaurants sélectionnés à quelques pas de l'appartement",
+    "backToHome": "Retour à l'Accueil"
+  },
+  "cafes": {
+    "title": "☕ Cafés & Boulangeries",
+    "subtitle": "Les meilleurs endroits pour le petit-déjeuner et le café dans le quartier",
+    "tips": {
+      "title": "💡 Conseils de Quartier",
+      "fresh": "🥖 La baguette ne dure qu'un jour",
+      "freeze": "❄️ Le pain se congèle bien !",
+      "better": "🏆 Boulangerie > Supermarché",
+      "sunday": "🚫 Beaucoup ferment le dimanche"
+    }
+  },
+  "bars": {
+    "title": "🍺 Bars & Vie Nocturne",
+    "subtitle": "Les meilleurs bars du Marais"
+  },
+  "shopping": {
+    "title": "🛒 Shopping & Supermarchés",
+    "subtitle": "Où acheter ce dont vous avez besoin"
+  },
+  "transport": {
+    "title": "🚇 Transport à Paris",
+    "subtitle": "Comment se déplacer dans la ville"
+  },
+  "info": {
+    "title": "ℹ️ Informations Utiles",
+    "subtitle": "Tout ce que vous devez savoir pour profiter de Paris"
+  }
+}
+
