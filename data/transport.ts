@@ -1,0 +1,68 @@
+import { TransportOption } from "@/types";
+
+export const transportOptions: TransportOption[] = [
+  {
+    id: "metro",
+    name: "Metrô de Paris",
+    type: "metro",
+    description: "A maneira mais rápida e eficiente de se locomover por Paris. O apartamento fica a 2 minutos da estação Saint-Sébastien - Froissart (Linha 8).",
+    price: "Bilhete único: €2,10 | Carnê 10 bilhetes: €17,35 | Passe dia: €8,45",
+    tips: "🎫 Compre o carnê de 10 bilhetes (mais econômico) ou o Navigo Easy (cartão recarregável). 🗺️ Baixe o app Citymapper ou RATP para rotas. ⚡ Evite horário de pico (8h-9h30, 17h30-19h30). 🚇 Metrôs funcionam das 5h30 até 1h15 (2h15 nas sextas e sábados).",
+    icon: "Train",
+  },
+  {
+    id: "bus",
+    name: "Ônibus",
+    type: "bus",
+    description: "Ótima opção para ver a cidade durante o trajeto. Várias linhas passam perto do apartamento.",
+    price: "Mesmo bilhete do metrô: €2,10",
+    tips: "🚌 Linhas úteis perto do apartamento: 29, 96, 69. 🎫 Valide o bilhete na máquina ao entrar. 🗺️ Pontos de ônibus tem mapa e horários. 🌙 Ônibus noturnos (Noctilien) funcionam após o metrô fechar.",
+    icon: "Bus",
+  },
+  {
+    id: "velib",
+    name: "Vélib' - Bicicletas Públicas",
+    type: "bike",
+    description: "Sistema de bikes compartilhadas. Estação Vélib' na esquina do apartamento!",
+    price: "Passe 1 dia: €5 | Passe 1 semana: €15 (primeiros 30 min grátis)",
+    tips: "🚲 Baixe o app Vélib'. Tem bikes elétricas e normais. 🔒 Pegue e devolva em qualquer estação. ⚡ Bikes elétricas (e-Vélib') são mais caras mas facilitam nas subidas. 🗺️ Paris é plana e tem MUITAS ciclovias. Região do apartamento é perfeita para bike!",
+    icon: "Bike",
+  },
+  {
+    id: "uber",
+    name: "Uber / Bolt / Taxi",
+    type: "taxi",
+    description: "Apps de transporte funcionam perfeitamente em Paris.",
+    price: "Uber: €10-20 em trajetos médios | Táxi: similiar mas aceita dinheiro",
+    tips: "📱 Baixe: Uber, Bolt e FreeNow (apps mais usados). 💶 Uber aceita cartão de crédito. 🚖 Táxis podem ser mais caros mas pegam na rua. 🌙 Práticos à noite quando metrô fecha. ✈️ Do apartamento até CDG: ~€50-70 de Uber.",
+    icon: "Car",
+  },
+  {
+    id: "scooter",
+    name: "Patinetes Elétricos",
+    type: "bike",
+    description: "Lime, Dott e Tier - patinetes espalhados pela cidade.",
+    price: "~€1 para desbloquear + €0,25/minuto",
+    tips: "⚡ Baixe os apps: Lime, Dott, Tier. 🪖 Capacete não é obrigatório mas recomendado. 🚫 Proibido andar na calçada! Use ciclovia ou rua. 🅿️ Estacione apenas em áreas permitidas (app mostra).",
+    icon: "Bike",
+  },
+  {
+    id: "airport-cdg",
+    name: "Do/Para Aeroporto Charles de Gaulle (CDG)",
+    type: "airport",
+    description: "Várias opções para chegar no aeroporto principal de Paris.",
+    price: "RER B: €11,45 | Ônibus Roissybus: €16,60 | Uber: €50-80",
+    tips: "✈️ TREM RER B: Pegue metrô até Gare du Nord (15 min), depois RER B até CDG (35 min). Total: ~50 min. 🚌 ROISSYBUS: Mais confortável, direto da Ópera até CDG (60 min). 🚗 UBER/TÁXI: Mais cômodo com bagagem. Reserve com antecedência! ⏰ Saia com 3 horas de antecedência (trânsito pode pegar).",
+    icon: "Plane",
+  },
+  {
+    id: "airport-orly",
+    name: "Do/Para Aeroporto de Orly (ORY)",
+    type: "airport",
+    description: "Aeroporto mais próximo do apartamento, ao sul de Paris.",
+    price: "Orlybus: €11,20 | Tram+Metrô: €2,10 | Uber: €35-50",
+    tips: "🚌 ORLYBUS: Da Place Denfert-Rochereau (metrô) até Orly (30 min). 🚇 TRAM 7 + METRÔ: Mais barato mas com baldeações. 🚗 UBER: Mais rápido e cômodo com bagagem. ⏰ Mais próximo que CDG, saia com 2h30 de antecedência.",
+    icon: "Plane",
+  },
+];
+
