@@ -2,7 +2,23 @@
 
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
+// Import all translations statically
+import frTranslations from "@/../public/translations/fr.json";
+import enTranslations from "@/../public/translations/en.json";
+import esTranslations from "@/../public/translations/es.json";
+import ptTranslations from "@/../public/translations/pt.json";
+import itTranslations from "@/../public/translations/it.json";
+
 export type Language = "fr" | "en" | "es" | "pt" | "it";
+
+// Translations map
+const translationsMap: Record<Language, Record<string, any>> = {
+  fr: frTranslations,
+  en: enTranslations,
+  es: esTranslations,
+  pt: ptTranslations,
+  it: itTranslations,
+};
 
 interface LanguageContextType {
   language: Language;
@@ -15,67 +31,32 @@ const LanguageContext = createContext<LanguageContextType | undefined>(undefined
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
   const [language, setLanguageState] = useState<Language>("fr");
-  const [translations, setTranslations] = useState<Record<string, any>>({});
-  const [isLoading, setIsLoading] = useState(true);
-  const [mounted, setMounted] = useState(false);
+  const [translations, setTranslations] = useState<Record<string, any>>(frTranslations);
+  const [isLoading, setIsLoading] = useState(false);
 
-  // Check if component is mounted (client-side only)
+  // Load language from localStorage on mount
   useEffect(() => {
-    setMounted(true);
     console.log("🚀 LanguageProvider mounted!");
     
-    // Load from localStorage (only on client)
     if (typeof window !== "undefined") {
       const saved = localStorage.getItem("language");
       console.log("💾 Saved language from localStorage:", saved);
       if (saved && ["fr", "en", "es", "pt", "it"].includes(saved)) {
         setLanguageState(saved as Language);
+        setTranslations(translationsMap[saved as Language]);
+        console.log(`✅ Loaded ${saved} translations from static import`);
+      } else {
+        console.log("✅ Using default French translations");
       }
     }
   }, []);
 
-  // Load translations when component mounts OR language changes
+  // Update translations when language changes
   useEffect(() => {
-    if (!mounted) {
-      console.log("⏳ Not mounted yet, skipping translation load");
-      return;
-    }
-
-    const loadTranslations = async () => {
-      setIsLoading(true);
-      try {
-        console.log(`🔄 Loading translations for ${language}...`);
-        const response = await fetch(`/translations/${language}.json`);
-        console.log(`📡 Fetch response status:`, response.status);
-        
-        if (!response.ok) {
-          throw new Error(`Failed to load ${language} translations`);
-        }
-        const data = await response.json();
-        console.log(`✅ Translations loaded for ${language}:`, Object.keys(data));
-        setTranslations(data);
-      } catch (error) {
-        console.error("❌ Error loading translations:", error);
-        // Fallback to French
-        try {
-          console.log(`🔄 Fallback to French...`);
-          const response = await fetch(`/translations/fr.json`);
-          if (response.ok) {
-            const data = await response.json();
-            console.log(`✅ Fallback French loaded:`, Object.keys(data));
-            setTranslations(data);
-          }
-        } catch (fallbackError) {
-          console.error("❌ Error loading fallback translations:", fallbackError);
-        }
-      } finally {
-        setIsLoading(false);
-        console.log("✅ Translation loading complete!");
-      }
-    };
-    
-    loadTranslations();
-  }, [language, mounted]);
+    console.log(`🔄 Language changed to: ${language}`);
+    setTranslations(translationsMap[language]);
+    console.log(`✅ Translations updated:`, Object.keys(translationsMap[language]));
+  }, [language]);
 
   const setLanguage = (lang: Language) => {
     setLanguageState(lang);
