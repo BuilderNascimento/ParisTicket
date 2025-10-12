@@ -134,6 +134,38 @@
     "confirm": "Confirmar",
     "yes": "Sí",
     "no": "No"
+  },
+  "footer": {
+    "about": {
+      "title": "Sobre el Apartamento",
+      "address": "8 Impasse Saint Sébastien<br />75011 París, Francia",
+      "description": "Tu guía completa para disfrutar de lo mejor de París y del barrio Le Marais."
+    },
+    "quickLinks": {
+      "title": "Enlaces Rápidos",
+      "apartmentGuide": "Guía del Apartamento",
+      "howToGet": "Cómo Llegar",
+      "usefulInfo": "Información Útil",
+      "tours": "Tours & Entradas"
+    },
+    "explore": {
+      "title": "Explorar",
+      "restaurants": "Restaurantes",
+      "cafes": "Cafés & Panaderías",
+      "bars": "Bares & Vida Nocturna",
+      "shopping": "Compras"
+    },
+    "location": {
+      "title": "Ubicación",
+      "description": "En el corazón de Le Marais, uno de los barrios más encantadores y vibrantes de París."
+    },
+    "madeWith": "Hecho con",
+    "forGuests": "para nuestros huéspedes",
+    "allRightsReserved": "Todos los derechos reservados.",
+    "buildify": {
+      "tagline": "Transformamos ideas en soluciones digitales",
+      "madeBy": "Creado por"
+    }
   }
 }
 

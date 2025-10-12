@@ -1,7 +1,12 @@
+"use client";
+
 import Link from "next/link";
 import { Heart } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function Footer() {
+  const { t } = useLanguage();
+
   return (
     <footer className="bg-gray-900 text-white">
       {/* Main Footer */}
@@ -9,38 +14,38 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* About */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Sobre o Apartamento</h4>
+            <h4 className="text-lg font-semibold mb-4">{t("footer.about.title")}</h4>
             <p className="text-gray-400 text-sm mb-4">
               8 Impasse Saint Sébastien<br />
-              75011 Paris, França
+              75011 Paris, France
             </p>
             <p className="text-gray-400 text-sm">
-              Seu guia completo para aproveitar o melhor de Paris e do bairro Le Marais.
+              {t("footer.about.description")}
             </p>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
+            <h4 className="text-lg font-semibold mb-4">{t("footer.quickLinks.title")}</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/apartamento" className="text-gray-400 hover:text-white transition-colors">
-                  Guia do Apartamento
+                  {t("footer.quickLinks.apartmentGuide")}
                 </Link>
               </li>
               <li>
                 <Link href="/transporte" className="text-gray-400 hover:text-white transition-colors">
-                  Como Chegar
+                  {t("footer.quickLinks.howToGet")}
                 </Link>
               </li>
               <li>
                 <Link href="/info" className="text-gray-400 hover:text-white transition-colors">
-                  Informações Úteis
+                  {t("footer.quickLinks.usefulInfo")}
                 </Link>
               </li>
               <li>
                 <Link href="/tours" className="text-gray-400 hover:text-white transition-colors">
-                  Tours & Ingressos
+                  {t("footer.quickLinks.tours")}
                 </Link>
               </li>
             </ul>
@@ -48,26 +53,26 @@ export default function Footer() {
 
           {/* Explore */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Explorar</h4>
+            <h4 className="text-lg font-semibold mb-4">{t("footer.explore.title")}</h4>
             <ul className="space-y-2 text-sm">
               <li>
                 <Link href="/restaurantes" className="text-gray-400 hover:text-white transition-colors">
-                  🍽️ Restaurantes
+                  🍽️ {t("footer.explore.restaurants")}
                 </Link>
               </li>
               <li>
                 <Link href="/cafes" className="text-gray-400 hover:text-white transition-colors">
-                  ☕ Cafés & Padarias
+                  ☕ {t("footer.explore.cafes")}
                 </Link>
               </li>
               <li>
                 <Link href="/bares" className="text-gray-400 hover:text-white transition-colors">
-                  🍺 Bares & Vida Noturna
+                  🍺 {t("footer.explore.bars")}
                 </Link>
               </li>
               <li>
                 <Link href="/compras" className="text-gray-400 hover:text-white transition-colors">
-                  🛒 Compras
+                  🛒 {t("footer.explore.shopping")}
                 </Link>
               </li>
             </ul>
@@ -75,21 +80,27 @@ export default function Footer() {
 
           {/* Location */}
           <div>
-            <h4 className="text-lg font-semibold mb-4">Localização</h4>
+            <h4 className="text-lg font-semibold mb-4">{t("footer.location.title")}</h4>
             <p className="text-gray-400 text-sm">
-              No coração do Marais, um dos bairros mais charmosos e vibrantes de Paris.
+              {t("footer.location.description")}
             </p>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-gray-800 mt-8 pt-8 text-center text-sm text-gray-400">
-          <p className="flex items-center justify-center">
-            Feito com <Heart className="w-4 h-4 mx-1 text-red-500" /> para nossos hóspedes
+        <div className="border-t border-gray-800 mt-8 pt-8 text-center">
+          <p className="text-sm text-gray-400 flex items-center justify-center mb-2">
+            {t("footer.madeWith")} <Heart className="w-4 h-4 mx-1 text-red-500" /> {t("footer.forGuests")}
           </p>
-          <p className="mt-2">
-            © {new Date().getFullYear()} 8 Impasse Saint Sébastien. Todos os direitos reservados.
+          <p className="text-sm text-gray-400 mb-4">
+            © {new Date().getFullYear()} 8 Impasse Saint Sébastien. {t("footer.allRightsReserved")}
           </p>
+          
+          {/* Buildify Brand */}
+          <div className="text-xs text-gray-500 border-t border-gray-800 pt-4 mt-4">
+            <p>{t("footer.buildify.madeBy")} <span className="font-semibold text-blue-400">Buildify</span></p>
+            <p className="mt-1 italic">{t("footer.buildify.tagline")}</p>
+          </div>
         </div>
       </div>
     </footer>

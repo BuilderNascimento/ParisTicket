@@ -249,6 +249,38 @@
       "btnGuide": "Voir le Guide Complet",
       "btnRestaurants": "Explorer les Restaurants"
     }
+  },
+  "footer": {
+    "about": {
+      "title": "À propos de l'Appartement",
+      "address": "8 Impasse Saint Sébastien<br />75011 Paris, France",
+      "description": "Votre guide complet pour profiter du meilleur de Paris et du quartier Le Marais."
+    },
+    "quickLinks": {
+      "title": "Liens Rapides",
+      "apartmentGuide": "Guide de l'Appartement",
+      "howToGet": "Comment Arriver",
+      "usefulInfo": "Informations Utiles",
+      "tours": "Tours & Billets"
+    },
+    "explore": {
+      "title": "Explorer",
+      "restaurants": "Restaurants",
+      "cafes": "Cafés & Boulangeries",
+      "bars": "Bars & Vie Nocturne",
+      "shopping": "Shopping"
+    },
+    "location": {
+      "title": "Localisation",
+      "description": "Au cœur du Marais, l'un des quartiers les plus charmants et vibrants de Paris."
+    },
+    "madeWith": "Fait avec",
+    "forGuests": "pour nos hôtes",
+    "allRightsReserved": "Tous les droits réservés.",
+    "buildify": {
+      "tagline": "Transformons les idées en solutions digitales",
+      "madeBy": "Créé par"
+    }
   }
 }
 
