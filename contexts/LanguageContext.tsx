@@ -36,6 +36,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
           throw new Error(`Failed to load ${language} translations`);
         }
         const data = await response.json();
+        console.log(`✅ Translations loaded for ${language}:`, Object.keys(data));
         setTranslations(data);
       } catch (error) {
         console.error("Error loading translations:", error);
@@ -70,6 +71,7 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
       if (value && typeof value === "object" && k in value) {
         value = value[k];
       } else {
+        console.warn(`❌ Translation key not found: ${key}`);
         return key; // Return key if translation not found
       }
     }

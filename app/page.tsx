@@ -5,7 +5,19 @@ import { useLanguage } from "@/contexts/LanguageContext";
 import { Home, UtensilsCrossed, Coffee, Wine, ShoppingBag, Train, Ticket, Info, MapPin, Building2, Sparkles } from "lucide-react";
 
 export default function HomePage() {
-  const { t } = useLanguage();
+  const { t, isLoading } = useLanguage();
+
+  // Show loading while translations are being fetched
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-600 to-purple-600">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-16 w-16 border-t-4 border-b-4 border-white mx-auto mb-4"></div>
+          <p className="text-white text-lg">Chargement...</p>
+        </div>
+      </div>
+    );
+  }
 
   const quickAccessCards = [
     {
