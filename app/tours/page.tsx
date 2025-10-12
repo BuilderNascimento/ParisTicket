@@ -37,16 +37,15 @@ export default function ToursPage() {
 
     // Price range
     if (selectedPriceRange !== "all") {
-      const [min, max] = selectedPriceRange.split("-").map((p) => {
-        if (p.includes("+")) return [parseInt(p.replace("+", "")), Infinity];
-        return parseInt(p);
-      });
-
-      if (Array.isArray(min)) {
-        filtered = filtered.filter((tour) => tour.price >= min[0]);
-      } else if (max) {
+      if (selectedPriceRange.includes("+")) {
+        const minPrice = parseInt(selectedPriceRange.replace("+", ""));
+        filtered = filtered.filter((tour) => tour.price >= minPrice);
+      } else {
+        const [minStr, maxStr] = selectedPriceRange.split("-");
+        const minPrice = parseInt(minStr);
+        const maxPrice = parseInt(maxStr);
         filtered = filtered.filter(
-          (tour) => tour.price >= min && tour.price <= max
+          (tour) => tour.price >= minPrice && tour.price <= maxPrice
         );
       }
     }
