@@ -1,7 +1,12 @@
+"use client";
+
 import PlaceCard from "@/components/PlaceCard";
 import { supermarkets } from "@/data/places";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function ComprasPage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -9,10 +14,10 @@ export default function ComprasPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              🛒 Supermercados & Farmácias
+              {t("shopping.title")}
             </h1>
             <p className="text-xl text-green-50 max-w-2xl mx-auto">
-              Onde comprar o essencial perto do apartamento
+              {t("shopping.subtitle")}
             </p>
           </div>
         </div>

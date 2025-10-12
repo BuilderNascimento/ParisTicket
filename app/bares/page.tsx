@@ -1,7 +1,12 @@
+"use client";
+
 import PlaceCard from "@/components/PlaceCard";
 import { bars } from "@/data/places";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function BaresPage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -9,10 +14,10 @@ export default function BaresPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              🍺 Bares & Vida Noturna
+              {t("bars.title")}
             </h1>
             <p className="text-xl text-purple-50 max-w-2xl mx-auto">
-              Explore os melhores bares do Marais e curta a noite parisiense
+              {t("bars.subtitle")}
             </p>
           </div>
         </div>

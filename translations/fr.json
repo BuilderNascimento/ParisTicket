@@ -281,6 +281,48 @@
       "tagline": "Transformons les idées en solutions digitales",
       "madeBy": "Créé par"
     }
+  },
+  "apartment": {
+    "title": "🏠 Guide de l'Appartement",
+    "subtitle": "Tout ce que vous devez savoir pour vous sentir chez vous",
+    "checkin": "Check-in",
+    "checkout": "Check-out",
+    "address": "📍 Adresse Complète",
+    "rules": "📋 Règles de la Maison",
+    "appliances": "⚡ Électroménagers",
+    "troubleshooting": "🔧 Dépannage"
+  },
+  "restaurants": {
+    "title": "🍽️ Meilleurs Restaurants",
+    "subtitle": "Restaurants sélectionnés à quelques pas de l'appartement",
+    "backToHome": "Retour à l'Accueil"
+  },
+  "cafes": {
+    "title": "☕ Cafés & Boulangeries",
+    "subtitle": "Les meilleurs endroits pour le petit-déjeuner et le café dans le quartier",
+    "tips": {
+      "title": "💡 Conseils de Quartier",
+      "fresh": "🥖 La baguette ne dure qu'un jour",
+      "freeze": "❄️ Le pain se congèle bien !",
+      "better": "🏆 Boulangerie > Supermarché",
+      "sunday": "🚫 Beaucoup ferment le dimanche"
+    }
+  },
+  "bars": {
+    "title": "🍺 Bars & Vie Nocturne",
+    "subtitle": "Les meilleurs bars du Marais"
+  },
+  "shopping": {
+    "title": "🛒 Shopping & Supermarchés",
+    "subtitle": "Où acheter ce dont vous avez besoin"
+  },
+  "transport": {
+    "title": "🚇 Transport à Paris",
+    "subtitle": "Comment se déplacer dans la ville"
+  },
+  "info": {
+    "title": "ℹ️ Informations Utiles",
+    "subtitle": "Tout ce que vous devez savoir pour profiter de Paris"
   }
 }
 

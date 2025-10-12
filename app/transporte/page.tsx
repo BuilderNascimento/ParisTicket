@@ -1,5 +1,8 @@
+"use client";
+
 import { transportOptions } from "@/data/transport";
 import { Train, Bus, Bike, Car, Plane } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const iconMap = {
   Train: Train,
@@ -10,6 +13,8 @@ const iconMap = {
 };
 
 export default function TransportePage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -17,10 +22,10 @@ export default function TransportePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              🚇 Transporte em Paris
+              {t("transport.title")}
             </h1>
             <p className="text-xl text-blue-50 max-w-2xl mx-auto">
-              Como se locomover pela cidade com facilidade
+              {t("transport.subtitle")}
             </p>
           </div>
         </div>

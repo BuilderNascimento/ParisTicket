@@ -1,7 +1,12 @@
+"use client";
+
 import PlaceCard from "@/components/PlaceCard";
 import { restaurants } from "@/data/places";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function RestaurantesPage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -9,10 +14,10 @@ export default function RestaurantesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              🍽️ Onde Comer
+              {t("restaurants.title")}
             </h1>
             <p className="text-xl text-red-50 max-w-2xl mx-auto">
-              Os melhores restaurantes perto do apartamento, todos testados e aprovados!
+              {t("restaurants.subtitle")}
             </p>
           </div>
         </div>

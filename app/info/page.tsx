@@ -1,7 +1,12 @@
+"use client";
+
 import InfoSection from "@/components/InfoSection";
 import { Phone } from "lucide-react";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function InfoPage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -9,10 +14,10 @@ export default function InfoPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              🆘 Informações Úteis
+              {t("info.title")}
             </h1>
             <p className="text-xl text-red-50 max-w-2xl mx-auto">
-              Números de emergência, saúde e segurança em Paris
+              {t("info.subtitle")}
             </p>
           </div>
         </div>

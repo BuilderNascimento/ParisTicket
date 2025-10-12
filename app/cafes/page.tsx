@@ -1,7 +1,12 @@
+"use client";
+
 import PlaceCard from "@/components/PlaceCard";
 import { cafes } from "@/data/places";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 export default function CafesPage() {
+  const { t } = useLanguage();
+
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
@@ -9,10 +14,10 @@ export default function CafesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              ☕ Cafés & Padarias
+              {t("cafes.title")}
             </h1>
             <p className="text-xl text-amber-50 max-w-2xl mx-auto">
-              Os melhores cafés da manhã e pães quentinhos do bairro
+              {t("cafes.subtitle")}
             </p>
           </div>
         </div>
@@ -68,14 +73,12 @@ export default function CafesPage() {
               </ul>
             </div>
             <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="font-bold text-gray-900 mb-3 text-lg">Dicas Importantes</h3>
+              <h3 className="font-bold text-gray-900 mb-3 text-lg">{t("cafes.tips.title")}</h3>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>⏰ Vá cedo (7h-9h) para pão fresco</li>
-                <li>🪑 Sentado é mais caro que no balcão</li>
-                <li>🥖 Baguette dura 1 dia só</li>
-                <li>❄️ Pão congela bem!</li>
-                <li>🏆 Boulangerie &gt; Supermercado</li>
-                <li>🚫 Domingo muitos fecham</li>
+                <li>{t("cafes.tips.fresh")}</li>
+                <li>{t("cafes.tips.freeze")}</li>
+                <li>{t("cafes.tips.better")}</li>
+                <li>{t("cafes.tips.sunday")}</li>
               </ul>
             </div>
           </div>
