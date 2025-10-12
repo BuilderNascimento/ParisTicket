@@ -27,9 +27,9 @@ export default function TourCard({ tour }: TourCardProps) {
               ⭐ Mais Popular
             </span>
           )}
-          {tour.isRecommended && (
+          {tour.isBestSeller && (
             <span className="bg-secondary-500 text-white px-3 py-1 rounded-full text-xs font-bold">
-              ✅ Recomendado
+              ✅ Mais Vendido
             </span>
           )}
         </div>
