@@ -87,22 +87,9 @@ export default function ApartamentoPage() {
         </InfoSection>
 
         {/* Kitchen Items */}
-        <InfoSection icon="🍳" title="O que tem na Cozinha">
+        <InfoSection icon="🍳" title={t("apartment.kitchen.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[
-              "Cafeteira Nespresso",
-              "Fogão de indução",
-              "Geladeira completa",
-              "Micro-ondas",
-              "Lava-louças",
-              "Torradeira",
-              "Chaleira elétrica",
-              "Panelas e frigideiras",
-              "Pratos e talheres",
-              "Copos e taças",
-              "Utensílios de cozinha",
-              "Sal, azeite, temperos básicos",
-            ].map((item, index) => (
+            {(t("apartment.kitchen.items") as unknown as string[]).map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>
@@ -112,16 +99,9 @@ export default function ApartamentoPage() {
         </InfoSection>
 
         {/* Bathroom Items */}
-        <InfoSection icon="🚿" title="O que tem no Banheiro">
+        <InfoSection icon="🚿" title={t("apartment.bathroom.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[
-              "Toalhas de banho",
-              "Toalhas de rosto",
-              "Shampoo",
-              "Sabonete",
-              "Papel higiênico",
-              "Secador de cabelo",
-            ].map((item, index) => (
+            {(t("apartment.bathroom.items") as unknown as string[]).map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>
@@ -131,16 +111,9 @@ export default function ApartamentoPage() {
         </InfoSection>
 
         {/* Bedroom Items */}
-        <InfoSection icon="🛏️" title="O que tem no Quarto">
+        <InfoSection icon="🛏️" title={t("apartment.bedroom.title")}>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[
-              "Roupa de cama",
-              "Cobertores extras",
-              "Travesseiros",
-              "Cabides",
-              "Ferro de passar",
-              "Tábua de passar",
-            ].map((item, index) => (
+            {(t("apartment.bedroom.items") as unknown as string[]).map((item: string, index: number) => (
               <div key={index} className="flex items-center text-gray-700">
                 <span className="text-green-500 mr-2">✓</span>
                 <span className="text-sm">{item}</span>

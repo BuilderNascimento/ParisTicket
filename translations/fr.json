@@ -290,7 +290,46 @@
     "address": "📍 Adresse Complète",
     "rules": "📋 Règles de la Maison",
     "appliances": "⚡ Électroménagers",
-    "troubleshooting": "🔧 Dépannage"
+    "troubleshooting": "🔧 Dépannage",
+    "kitchen": {
+      "title": "🍳 Équipements de la Cuisine",
+      "items": [
+        "Machine à café Nespresso",
+        "Plaque à induction",
+        "Réfrigérateur complet",
+        "Micro-ondes",
+        "Lave-vaisselle",
+        "Grille-pain",
+        "Bouilloire électrique",
+        "Casseroles et poêles",
+        "Assiettes et couverts",
+        "Verres et coupes",
+        "Ustensiles de cuisine",
+        "Sel, huile, épices de base"
+      ]
+    },
+    "bathroom": {
+      "title": "🚿 Équipements de la Salle de Bain",
+      "items": [
+        "Serviettes de bain",
+        "Serviettes de toilette",
+        "Shampoing",
+        "Savon",
+        "Papier toilette",
+        "Sèche-cheveux"
+      ]
+    },
+    "bedroom": {
+      "title": "🛏️ Équipements de la Chambre",
+      "items": [
+        "Draps propres",
+        "Couvertures supplémentaires",
+        "Oreillers (2 par personne)",
+        "Cintres dans l'armoire",
+        "Table de chevet",
+        "Lampe de lecture"
+      ]
+    }
   },
   "restaurants": {
     "title": "🍽️ Meilleurs Restaurants",
