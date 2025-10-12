@@ -3,11 +3,11 @@
 import { createContext, useContext, useState, useEffect, ReactNode } from "react";
 
 // Import all translations statically
-import frTranslations from "@/../public/translations/fr.json";
-import enTranslations from "@/../public/translations/en.json";
-import esTranslations from "@/../public/translations/es.json";
-import ptTranslations from "@/../public/translations/pt.json";
-import itTranslations from "@/../public/translations/it.json";
+import frTranslations from "@/../translations/fr.json";
+import enTranslations from "@/../translations/en.json";
+import esTranslations from "@/../translations/es.json";
+import ptTranslations from "@/../translations/pt.json";
+import itTranslations from "@/../translations/it.json";
 
 export type Language = "fr" | "en" | "es" | "pt" | "it";
 
