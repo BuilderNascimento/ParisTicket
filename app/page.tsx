@@ -376,24 +376,20 @@ export default function HomePage() {
           </div>
 
           <div className="bg-white rounded-2xl shadow-2xl overflow-hidden border-4 border-gray-100">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.8916!2d2.3749!3d48.8586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e66dfcf0f6e519%3A0x5e5e5e5e5e5e5e5e!2s8%20Impasse%20Saint-S%C3%A9bastien%2C%2075011%20Paris!5e0!3m2!1sfr!2sfr!4v1699999999999!5m2!1sfr!2sfr&zoom=15"
-              width="100%"
-              height="500"
-              style={{ border: 0 }}
-              allowFullScreen
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+            <div className="bg-gray-200 h-[500px] flex items-center justify-center">
+              <p className="text-gray-600 text-lg">
+                Carte personnalisée selon votre localisation
+              </p>
+            </div>
           </div>
 
           {/* Distance Cards */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
             {[
-              { icon: "🏛️", nameKey: "home.map.places.bastille", time: "8-10 min", transportKey: "home.map.places.byFoot" },
-              { icon: "🍽️", nameKey: "home.map.places.oberkampf", time: "5 min", transportKey: "home.map.places.byFoot" },
-              { icon: "🏘️", nameKey: "home.map.places.lemarais", time: "10-12 min", transportKey: "home.map.places.byFoot" },
-              { icon: "🗼", nameKey: "home.map.places.eiffel", time: "30 min", transportKey: "home.map.places.byMetro" },
+              { icon: "🏛️", nameKey: "home.map.places.attractions", time: "Selon localisation", transportKey: "home.map.places.byFoot" },
+              { icon: "🍽️", nameKey: "home.map.places.restaurants", time: "Selon localisation", transportKey: "home.map.places.byFoot" },
+              { icon: "🏘️", nameKey: "home.map.places.quartier", time: "Selon localisation", transportKey: "home.map.places.byFoot" },
+              { icon: "🗼", nameKey: "home.map.places.monuments", time: "Selon localisation", transportKey: "home.map.places.byMetro" },
             ].map((place, index) => (
               <div key={index} className="bg-gradient-to-br from-primary-50 to-primary-100 rounded-xl p-4 text-center hover:scale-105 transition-transform">
                 <div className="text-4xl mb-2">{place.icon}</div>

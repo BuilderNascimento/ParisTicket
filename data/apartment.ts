@@ -2,16 +2,16 @@ import { ApartmentInfo } from "@/types";
 
 export const apartmentInfo: ApartmentInfo = {
   wifi: {
-    name: "Paris_8Impasse_5G",
-    password: "BonjourParis2024!",
+    name: "Nom du réseau Wi-Fi",
+    password: "Mot de passe Wi-Fi",
   },
-  address: "8 Impasse Saint Sébastien, 75011 Paris, France",
-  checkIn: "15h00 - Clés dans la boîte à clés sur la porte de l'appartement (code envoyé le jour même) | Dépôt de bagages à partir de 13h",
-  checkOut: "11h00 - Laissez les clés dans la boîte à clés sur la porte de l'appartement",
+  address: "Adresse complète de l'appartement",
+  checkIn: "Les informations d'accès seront personnalisées selon votre appartement (code d'entrée, boîte à clés, étage, horaires, etc.).",
+  checkOut: "Horaires et instructions de check-out personnalisés selon votre appartement.",
   emergencyContact: {
-    name: "Propriétaire - Antonio",
-    phone: "+33 6 12 34 56 78",
-    whatsapp: "+55 11 98765-4321",
+    name: "Contact d'urgence",
+    phone: "+33 X XX XX XX XX",
+    whatsapp: "+33 X XX XX XX XX",
   },
   rules: [
     "🚭 Appartement 100% non-fumeur",
@@ -55,7 +55,7 @@ export const apartmentInfo: ApartmentInfo = {
   troubleshooting: [
     {
       problem: "Le WiFi ne se connecte pas",
-      solution: "1. Débranchez le routeur pendant 30 secondes puis rebranchez-le. 2. Mot de passe : BonjourParis2024! (sensible à la casse). 3. Si le problème persiste, contactez-moi sur WhatsApp.",
+      solution: "1. Débranchez le routeur pendant 30 secondes puis rebranchez-le. 2. Vérifiez le mot de passe (sensible à la casse). 3. Si le problème persiste, contactez le propriétaire.",
     },
     {
       problem: "Pas d'eau chaude",
@@ -75,7 +75,7 @@ export const apartmentInfo: ApartmentInfo = {
     },
     {
       problem: "La porte de l'immeuble ne s'ouvre pas",
-      solution: "Code de la porte d'entrée : #4589B. Tapez le code et poussez quand vous entendez le bip. Si ça ne fonctionne pas, sonnez à l'interphone de l'appartement 8.",
+      solution: "Le code de la porte d'entrée sera fourni dans les instructions de check-in. Tapez le code et poussez quand vous entendez le bip. Si ça ne fonctionne pas, contactez le propriétaire.",
     },
   ],
 };

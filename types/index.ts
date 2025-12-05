@@ -16,7 +16,7 @@ export interface Place {
   hasDelivery: boolean;
   hasWifi?: boolean;
   tips: string;
-  category: "restaurant" | "cafe" | "bar" | "supermarket" | "pharmacy";
+  category: "restaurant" | "cafe" | "bar" | "supermarket" | "pharmacy" | "shopping";
   rating: number; // 0-5
   reviewCount: number;
   coordinates: {

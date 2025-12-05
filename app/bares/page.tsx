@@ -27,9 +27,9 @@ export default function BaresPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-purple-50 border-l-4 border-purple-400 p-6 rounded-r-lg">
           <p className="text-gray-700">
-            <strong>🌙 Vida Noturna em Saint-Ambroise e Oberkampf:</strong> Você está no coração da vida noturna parisiense! 
-            Oberkampf (5min) e Bastille (8min) têm desde cocktail bars sofisticados até pubs descontraídos. A maioria abre 
-            após as 18h e fica aberto até 2h. Happy hour geralmente é das 17h às 20h. 🍸
+            <strong>🌙 Vie Nocturne:</strong> Vous êtes au cœur de la vie nocturne parisienne ! 
+            Les bars recommandés dans votre quartier offrent des cocktail bars sophistiqués aux pubs décontractés. 
+            La plupart ouvrent après 18h et restent ouverts jusqu'à 2h. L'heure de l'apéritif est généralement de 17h à 20h. 🍸
           </p>
         </div>
       </section>
@@ -47,68 +47,68 @@ export default function BaresPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-xl shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            🌃 Guia da Vida Noturna
+            🌃 Guide de la Vie Nocturne
           </h2>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
-              <h3 className="font-bold text-gray-900 mb-4 text-lg">Tipos de Bares</h3>
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">Types de Bars</h3>
               <div className="space-y-4">
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-bold text-gray-900 mb-1">🍸 Cocktail Bars</h4>
                   <p className="text-sm text-gray-700">
-                    Drinks autorais e sofisticados. Preço: €12-18 por drink. Dress code: casual elegante.
+                    Boissons créatives et sophistiquées. Prix : €12-18 par boisson. Dress code : décontracté élégant.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
-                  <h4 className="font-bold text-gray-900 mb-1">🍺 Pubs & Bares</h4>
+                  <h4 className="font-bold text-gray-900 mb-1">🍺 Pubs & Bars</h4>
                   <p className="text-sm text-gray-700">
-                    Ambiente descontraído, cervejas e petiscos. Preço: €5-10 por cerveja. Dress code: casual.
+                    Ambiance décontractée, bières et snacks. Prix : €5-10 par bière. Dress code : décontracté.
                   </p>
                 </div>
                 <div className="bg-gray-50 p-4 rounded-lg">
                   <h4 className="font-bold text-gray-900 mb-1">🍷 Wine Bars</h4>
                   <p className="text-sm text-gray-700">
-                    Vinhos franceses e tábuas de queijos. Preço: €6-12 por taça. Perfeito para um momento relaxante.
+                    Vins français et planches de fromages. Prix : €6-12 par verre. Parfait pour un moment relaxant.
                   </p>
                 </div>
               </div>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 mb-4 text-lg">Dicas Importantes</h3>
+              <h3 className="font-bold text-gray-900 mb-4 text-lg">Conseils Importants</h3>
               <div className="space-y-3">
                 <div className="flex items-start">
                   <span className="text-2xl mr-3">⏰</span>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm">Horários</h4>
-                    <p className="text-sm text-gray-700">Happy hour: 17h-20h. Pico: 22h-00h. Maioria fecha às 2h.</p>
+                    <h4 className="font-bold text-gray-900 text-sm">Horaires</h4>
+                    <p className="text-sm text-gray-700">Apéritif : 17h-20h. Pic : 22h-00h. La plupart ferment à 2h.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <span className="text-2xl mr-3">💳</span>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm">Pagamento</h4>
-                    <p className="text-sm text-gray-700">Cartão aceito na maioria. Sempre tenha um pouco de dinheiro.</p>
+                    <h4 className="font-bold text-gray-900 text-sm">Paiement</h4>
+                    <p className="text-sm text-gray-700">Carte acceptée dans la plupart. Ayez toujours un peu d'argent.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <span className="text-2xl mr-3">🚇</span>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm">Como Voltar</h4>
-                    <p className="text-sm text-gray-700">Metrô até 1h15 (2h15 sex/sáb). Depois use Uber/Bolt.</p>
+                    <h4 className="font-bold text-gray-900 text-sm">Comment Revenir</h4>
+                    <p className="text-sm text-gray-700">Métro jusqu'à 1h15 (2h15 ven/sam). Après utilisez Uber/Bolt.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <span className="text-2xl mr-3">🎫</span>
                   <div>
-                    <h4 className="font-bold text-gray-900 text-sm">Entrada</h4>
-                    <p className="text-sm text-gray-700">Bares são grátis. Baladas cobram €10-20 entrada.</p>
+                    <h4 className="font-bold text-gray-900 text-sm">Entrée</h4>
+                    <p className="text-sm text-gray-700">Les bars sont gratuits. Les boîtes de nuit facturent €10-20 l'entrée.</p>
                   </div>
                 </div>
                 <div className="flex items-start">
                   <span className="text-2xl mr-3">👔</span>
                   <div>
                     <h4 className="font-bold text-gray-900 text-sm">Dress Code</h4>
-                    <p className="text-sm text-gray-700">Paris é estilosa! Evite chinelos e roupas muito casuais.</p>
+                    <p className="text-sm text-gray-700">Paris est stylé ! Évitez les tongs et vêtements trop décontractés.</p>
                   </div>
                 </div>
               </div>
@@ -121,15 +121,15 @@ export default function BaresPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
         <div className="bg-amber-50 border-2 border-amber-200 rounded-xl p-6">
           <h3 className="font-bold text-gray-900 mb-3 text-lg">
-            🔒 Dicas de Segurança
+            🔒 Conseils de Sécurité
           </h3>
           <ul className="grid md:grid-cols-2 gap-3 text-sm text-gray-700">
-            <li>✓ Não deixe bebida sem vigilância</li>
-            <li>✓ Guarde pertences em local seguro</li>
-            <li>✓ Prefira apps de transporte à noite</li>
-            <li>✓ Ande sempre em grupos se possível</li>
-            <li>✓ Tenha bateria no celular</li>
-            <li>✓ Saiba o endereço do apartamento</li>
+            <li>✓ Ne laissez pas votre boisson sans surveillance</li>
+            <li>✓ Gardez vos affaires en lieu sûr</li>
+            <li>✓ Préférez les apps de transport la nuit</li>
+            <li>✓ Marchez toujours en groupe si possible</li>
+            <li>✓ Ayez de la batterie sur votre téléphone</li>
+            <li>✓ Connaissez l'adresse de l'appartement</li>
           </ul>
         </div>
       </section>

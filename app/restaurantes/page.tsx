@@ -27,9 +27,9 @@ export default function RestaurantesPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="bg-amber-50 border-l-4 border-amber-400 p-6 rounded-r-lg">
           <p className="text-gray-700">
-            <strong>💡 Dica Geral:</strong> Saint-Ambroise e Oberkampf formam um dos melhores polos gastronômicos de Paris! 
-            A maioria dos restaurantes não aceita reserva, então chegue cedo (antes das 19h30) ou esteja 
-            preparado para esperar um pouco. Vale muito a pena! 🍷
+            <strong>💡 Conseil Général:</strong> Les restaurants recommandés dans votre quartier forment l'un des meilleurs pôles gastronomiques de Paris ! 
+            La plupart des restaurants n'acceptent pas de réservation, alors arrivez tôt (avant 19h30) ou soyez 
+            prêt à attendre un peu. Ça vaut vraiment le coup ! 🍷
           </p>
         </div>
       </section>
@@ -47,31 +47,31 @@ export default function RestaurantesPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-white rounded-xl shadow-md p-8">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            🌟 Dicas para Comer Bem em Paris
+            🌟 Conseils pour Bien Manger à Paris
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">🕒 Horários</h3>
+              <h3 className="font-bold text-gray-900 mb-2">🕒 Horaires</h3>
               <p className="text-gray-700 text-sm">
-                Almoço: 12h-14h30 | Jantar: 19h-22h. Muitos restaurantes fecham entre 15h-19h.
+                Déjeuner : 12h-14h30 | Dîner : 19h-22h. Beaucoup de restaurants ferment entre 15h-19h.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">💶 Gorjeta</h3>
+              <h3 className="font-bold text-gray-900 mb-2">💶 Pourboire</h3>
               <p className="text-gray-700 text-sm">
-                Serviço já incluído na conta! Deixar 5-10% é opcional mas apreciado.
+                Service déjà inclus dans l'addition ! Laisser 5-10% est optionnel mais apprécié.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">📱 Apps Úteis</h3>
+              <h3 className="font-bold text-gray-900 mb-2">📱 Applications Utiles</h3>
               <p className="text-gray-700 text-sm">
-                TheFork (La Fourchette) - Reservas com desconto. Google Maps para reviews.
+                TheFork (La Fourchette) - Réservations avec réduction. Google Maps pour les avis.
               </p>
             </div>
             <div>
-              <h3 className="font-bold text-gray-900 mb-2">🥖 Economize</h3>
+              <h3 className="font-bold text-gray-900 mb-2">🥖 Économisez</h3>
               <p className="text-gray-700 text-sm">
-                Menu do dia (formule) no almoço é mais barato. Água da torneira é grátis (carafe d'eau).
+                Menu du jour (formule) au déjeuner est moins cher. L'eau du robinet est gratuite (carafe d'eau).
               </p>
             </div>
           </div>

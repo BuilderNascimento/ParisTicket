@@ -64,14 +64,14 @@ export default function Header() {
       megaMenu: true,
       columns: [
         {
-          title: "Refeições",
+          title: "Repas",
           items: [
             { label: t("header.restaurants"), href: "/restaurantes", icon: "🍽️", badge: "12" },
             { label: t("header.cafes"), href: "/cafes", icon: "☕", badge: "8" },
           ],
         },
         {
-          title: "Vida Noturna",
+          title: "Vie Nocturne",
           items: [
             { label: t("header.bars"), href: "/bares", icon: "🍺", badge: "7" },
             { label: t("header.wineBars"), href: "/bares#wine", icon: "🍷", badge: undefined },
@@ -105,16 +105,16 @@ export default function Header() {
           title: "Culture",
           items: [
             { label: t("header.mainAttractions"), href: "/tours", icon: "🗼", badge: undefined },
-            { label: t("header.museums"), href: "/tours#museus", icon: "🎨", badge: undefined },
-            { label: t("header.guidedTours"), href: "/tours#guiados", icon: "🏛️", badge: undefined },
+            { label: t("header.museums"), href: "/tours#musees", icon: "🎨", badge: undefined },
+            { label: t("header.guidedTours"), href: "/tours#visites", icon: "🏛️", badge: undefined },
           ],
         },
         {
           title: "Expériences",
           items: [
-            { label: t("header.shows"), href: "/tours#shows", icon: "🎭", badge: undefined },
-            { label: t("header.gastronomy"), href: "/tours#gastronomia", icon: "🍷", badge: undefined },
-            { label: t("header.boatTours"), href: "/tours#barco", icon: "🚤", badge: undefined },
+            { label: t("header.shows"), href: "/tours#spectacles", icon: "🎭", badge: undefined },
+            { label: t("header.gastronomy"), href: "/tours#gastronomie", icon: "🍷", badge: undefined },
+            { label: t("header.boatTours"), href: "/tours#croisieres", icon: "🚤", badge: undefined },
           ],
         },
       ],
@@ -153,7 +153,7 @@ export default function Header() {
                       : "text-white"
                   }`}
                 >
-                  ISS Paris
+                  Guide Digital
                 </span>
                 <span
                   className={`text-xs transition-colors ${
@@ -317,7 +317,7 @@ export default function Header() {
                   <Home className="w-5 h-5 text-white" />
                 </div>
                 <div>
-                  <p className="font-bold text-lg">ISS Paris</p>
+                  <p className="font-bold text-lg">Guide Digital</p>
                   <p className="text-xs text-gray-500">{t("header.yourGuide")}</p>
                 </div>
               </div>

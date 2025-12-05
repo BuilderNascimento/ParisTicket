@@ -15,10 +15,7 @@ export default function Footer() {
           {/* About */}
           <div>
             <h4 className="text-lg font-semibold mb-4">{t("footer.about.title")}</h4>
-            <p className="text-gray-400 text-sm mb-4">
-              8 Impasse Saint Sébastien<br />
-              75011 Paris, France
-            </p>
+            <p className="text-gray-400 text-sm mb-4" dangerouslySetInnerHTML={{ __html: t("footer.about.address") }} />
             <p className="text-gray-400 text-sm">
               {t("footer.about.description")}
             </p>
@@ -93,7 +90,7 @@ export default function Footer() {
             {t("footer.madeWith")} <Heart className="w-4 h-4 mx-1 text-red-500" /> {t("footer.forGuests")}
           </p>
           <p className="text-sm text-gray-400 mb-4">
-            © {new Date().getFullYear()} 8 Impasse Saint Sébastien. {t("footer.allRightsReserved")}
+            © {new Date().getFullYear()} Guide Digital. {t("footer.allRightsReserved")}
           </p>
           
           {/* Buildify Brand */}

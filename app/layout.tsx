@@ -8,8 +8,8 @@ import { LanguageProvider } from "@/contexts/LanguageContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Guide de l'Appartement - 8 Impasse Saint Sébastien, Paris",
-  description: "Votre guide complet pour profiter de Paris et de notre appartement",
+  title: "Guide Digital pour Vos Appartements Airbnb",
+  description: "Un guide digital professionnel pour vos appartements, avec instructions, restaurants, transports et QR Codes pour vos hôtes.",
   manifest: "/manifest.json",
   themeColor: "#3b82f6",
   viewport: "width=device-width, initial-scale=1, maximum-scale=1",
