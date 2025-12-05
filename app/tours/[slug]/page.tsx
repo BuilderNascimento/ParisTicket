@@ -6,6 +6,7 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 import BookingCard from "@/components/BookingCard";
 import TourCardPremium from "@/components/TourCardPremium";
+import { useLanguage } from "@/contexts/LanguageContext";
 import {
   MapPin,
   Clock,
@@ -24,6 +25,7 @@ export default function TourDetailPage() {
   const params = useParams();
   const slug = params.slug as string;
   const tour = tours.find((t) => t.slug === slug);
+  const { t } = useLanguage();
 
   const [openFaq, setOpenFaq] = useState<number | null>(null);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -390,7 +392,7 @@ export default function TourDetailPage() {
             {/* Related Tours */}
             {relatedTours.length > 0 && (
               <div>
-                <h2 className="text-2xl font-bold mb-6">Você também pode gostar</h2>
+                <h2 className="text-2xl font-bold mb-6">{t("tours.detail.youMayLike")}</h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {relatedTours.map((relatedTour) => (
                     <TourCardPremium key={relatedTour.id} tour={relatedTour} />

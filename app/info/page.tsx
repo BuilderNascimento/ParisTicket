@@ -28,219 +28,219 @@ export default function InfoPage() {
         <div className="bg-red-50 border-2 border-red-300 rounded-xl shadow-lg p-8 mb-8">
           <h2 className="text-2xl font-bold text-red-900 mb-6 flex items-center">
             <Phone className="w-6 h-6 mr-3" />
-            🚨 Números de Emergência
+            🚨 Numéros d'Urgence
           </h2>
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-white rounded-lg p-4 border-l-4 border-red-500">
-              <p className="font-bold text-gray-900 text-lg mb-1">🚨 Emergência Geral</p>
+              <p className="font-bold text-gray-900 text-lg mb-1">🚨 Urgence Générale</p>
               <a href="tel:112" className="text-3xl font-bold text-red-600">112</a>
-              <p className="text-sm text-gray-600 mt-1">Funciona em toda Europa</p>
+              <p className="text-sm text-gray-600 mt-1">Fonctionne dans toute l'Europe</p>
             </div>
             <div className="bg-white rounded-lg p-4 border-l-4 border-blue-500">
-              <p className="font-bold text-gray-900 text-lg mb-1">👮 Polícia</p>
+              <p className="font-bold text-gray-900 text-lg mb-1">👮 Police</p>
               <a href="tel:17" className="text-3xl font-bold text-blue-600">17</a>
               <p className="text-sm text-gray-600 mt-1">Police Nationale</p>
             </div>
             <div className="bg-white rounded-lg p-4 border-l-4 border-red-500">
-              <p className="font-bold text-gray-900 text-lg mb-1">🚒 Bombeiros</p>
+              <p className="font-bold text-gray-900 text-lg mb-1">🚒 Pompiers</p>
               <a href="tel:18" className="text-3xl font-bold text-red-600">18</a>
               <p className="text-sm text-gray-600 mt-1">Sapeurs-Pompiers</p>
             </div>
             <div className="bg-white rounded-lg p-4 border-l-4 border-green-500">
-              <p className="font-bold text-gray-900 text-lg mb-1">🚑 SAMU (Ambulância)</p>
+              <p className="font-bold text-gray-900 text-lg mb-1">🚑 SAMU (Ambulance)</p>
               <a href="tel:15" className="text-3xl font-bold text-green-600">15</a>
-              <p className="text-sm text-gray-600 mt-1">Emergência médica</p>
+              <p className="text-sm text-gray-600 mt-1">Urgence médicale</p>
             </div>
           </div>
         </div>
 
 
         {/* Health */}
-        <InfoSection icon="🏥" title="Saúde e Hospitais" defaultOpen>
+        <InfoSection icon="🏥" title="Santé et Hôpitaux" defaultOpen>
           <div className="space-y-4">
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2">Hôpital Saint-Antoine</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Endereço:</strong> 184 Rue du Faubourg Saint-Antoine, 75012 Paris
+                <strong>Adresse :</strong> 184 Rue du Faubourg Saint-Antoine, 75012 Paris
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Distância:</strong> 10 minutos de táxi
+                <strong>Distance :</strong> 10 minutes en taxi
               </p>
               <p className="text-sm text-gray-700">
-                <strong>Tel:</strong> <a href="tel:+33149282000" className="text-primary-600">+33 1 49 28 20 00</a>
+                <strong>Tel :</strong> <a href="tel:+33149282000" className="text-primary-600">+33 1 49 28 20 00</a>
               </p>
             </div>
             
             <div className="bg-green-50 p-4 rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">💊 Farmácias 24h</h4>
+              <h4 className="font-bold text-gray-900 mb-2">💊 Pharmacies 24h</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Pharmacie Châtelet Les Halles:</strong> 10 Boulevard de Sébastopol, 75004
+                <strong>Pharmacie Châtelet Les Halles :</strong> 10 Boulevard de Sébastopol, 75004
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Pharmacie des Champs:</strong> 84 Avenue des Champs-Élysées, 75008
+                <strong>Pharmacie des Champs :</strong> 84 Avenue des Champs-Élysées, 75008
               </p>
               <p className="text-sm text-gray-700">
-                Busque por "pharmacie de garde" para outras opções
+                Recherchez "pharmacie de garde" pour d'autres options
               </p>
             </div>
 
             <div className="bg-amber-50 border-l-4 border-amber-400 p-4">
               <p className="text-sm text-gray-700">
-                <strong>💡 Dica:</strong> Farmácias francesas são muito qualificadas. Para problemas menores, 
-                vá direto na farmácia antes de ir ao médico. Farmacêuticos podem receitar alguns medicamentos.
+                <strong>💡 Conseil :</strong> Les pharmacies françaises sont très qualifiées. Pour les problèmes mineurs, 
+                allez directement à la pharmacie avant d'aller chez le médecin. Les pharmaciens peuvent prescrire certains médicaments.
               </p>
             </div>
           </div>
         </InfoSection>
 
         {/* Police Stations */}
-        <InfoSection icon="👮" title="Delegacias Próximas">
+        <InfoSection icon="👮" title="Commissariats Proches">
           <div className="space-y-4">
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2">Commissariat du 11e Arrondissement</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Endereço:</strong> 12-14 Rue de la Roquette, 75011 Paris
+                <strong>Adresse :</strong> 12-14 Rue de la Roquette, 75011 Paris
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Distância:</strong> 8 minutos a pé
+                <strong>Distance :</strong> 8 minutes à pied
               </p>
               <p className="text-sm text-gray-700">
-                <strong>Tel:</strong> +33 1 53 36 18 00
+                <strong>Tel :</strong> +33 1 53 36 18 00
               </p>
             </div>
             
             <div className="bg-amber-50 border-l-4 border-amber-400 p-4">
               <p className="text-sm text-gray-700">
-                <strong>📋 Para denúncias:</strong> Leve documento de identidade. Se não falar francês, 
-                use Google Tradutor. Eles são acostumados com turistas.
+                <strong>📋 Pour déposer plainte :</strong> Apportez une pièce d'identité. Si vous ne parlez pas français, 
+                utilisez Google Traduction. Ils sont habitués aux touristes.
               </p>
             </div>
           </div>
         </InfoSection>
 
         {/* Embassies */}
-        <InfoSection icon="🏛️" title="Embaixadas e Consulados">
+        <InfoSection icon="🏛️" title="Ambassades et Consulats">
           <div className="space-y-4">
             <div className="bg-green-50 p-4 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2 flex items-center">
-                <span className="mr-2">🇧🇷</span> Embaixada do Brasil
+                <span className="mr-2">🇧🇷</span> Ambassade du Brésil
               </h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Endereço:</strong> 34 Cours Albert 1er, 75008 Paris
+                <strong>Adresse :</strong> 34 Cours Albert 1er, 75008 Paris
               </p>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Tel:</strong> <a href="tel:+33145616300" className="text-primary-600">+33 1 45 61 63 00</a>
+                <strong>Tel :</strong> <a href="tel:+33145616300" className="text-primary-600">+33 1 45 61 63 00</a>
               </p>
               <p className="text-sm text-gray-700">
-                <strong>Emergências:</strong> +33 6 03 33 38 25 (24h)
+                <strong>Urgences :</strong> +33 6 03 33 38 25 (24h)
               </p>
             </div>
             
             <div className="bg-blue-50 p-4 rounded-lg">
               <h4 className="font-bold text-gray-900 mb-2 flex items-center">
-                <span className="mr-2">🇵🇹</span> Embaixada de Portugal
+                <span className="mr-2">🇵🇹</span> Ambassade du Portugal
               </h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Endereço:</strong> 3 Rue de Noisiel, 75116 Paris
+                <strong>Adresse :</strong> 3 Rue de Noisiel, 75116 Paris
               </p>
               <p className="text-sm text-gray-700">
-                <strong>Tel:</strong> +33 1 47 27 35 29
+                <strong>Tel :</strong> +33 1 47 27 35 29
               </p>
             </div>
           </div>
         </InfoSection>
 
         {/* Safety Tips */}
-        <InfoSection icon="🔒" title="Dicas de Segurança">
+        <InfoSection icon="🔒" title="Conseils de Sécurité">
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">✅ Faça</h4>
+              <h4 className="font-bold text-gray-900 mb-3">✅ À Faire</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>✓ Mantenha objetos de valor escondidos</li>
-                <li>✓ Use bolsa/mochila na frente</li>
-                <li>✓ Guarde cópias dos documentos</li>
-                <li>✓ Tenha foto do passaporte no celular</li>
-                <li>✓ Use apps de transporte à noite</li>
-                <li>✓ Fique atento em lugares turísticos</li>
-                <li>✓ Guarde o endereço do apartamento</li>
+                <li>✓ Gardez les objets de valeur cachés</li>
+                <li>✓ Portez sac/mochila devant vous</li>
+                <li>✓ Gardez des copies des documents</li>
+                <li>✓ Ayez une photo du passeport sur le téléphone</li>
+                <li>✓ Utilisez les apps de transport la nuit</li>
+                <li>✓ Restez vigilant dans les lieux touristiques</li>
+                <li>✓ Gardez l'adresse de l'appartement</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-bold text-gray-900 mb-3">❌ Evite</h4>
+              <h4 className="font-bold text-gray-900 mb-3">❌ À Éviter</h4>
               <ul className="space-y-2 text-sm text-gray-700">
-                <li>✗ Deixar bolsa em cadeira de café</li>
-                <li>✗ Usar celular em locais muito movimentados</li>
-                <li>✗ Aceitar "ajuda" de estranhos</li>
-                <li>✗ Assinar petições de estranhos</li>
-                <li>✗ Jogar "jogos" de rua</li>
-                <li>✗ Comprar de vendedores ambulantes</li>
-                <li>✗ Andar sozinho em áreas desertas à noite</li>
+                <li>✗ Laisser le sac sur une chaise de café</li>
+                <li>✗ Utiliser le téléphone dans des endroits très fréquentés</li>
+                <li>✗ Accepter "l'aide" d'étrangers</li>
+                <li>✗ Signer des pétitions d'étrangers</li>
+                <li>✗ Jouer aux "jeux" de rue</li>
+                <li>✗ Acheter aux vendeurs ambulants</li>
+                <li>✗ Marcher seul dans des zones désertes la nuit</li>
               </ul>
             </div>
           </div>
         </InfoSection>
 
         {/* Weather */}
-        <InfoSection icon="☀️" title="Clima e Estações">
+        <InfoSection icon="☀️" title="Climat et Saisons">
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-gradient-to-br from-blue-100 to-blue-50 p-4 rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">❄️ Inverno (Dez-Fev)</h4>
+              <h4 className="font-bold text-gray-900 mb-2">❄️ Hiver (Déc-Fév)</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Temperatura:</strong> 3-8°C
+                <strong>Température :</strong> 3-8°C
               </p>
               <p className="text-sm text-gray-700">
-                Frio! Leve casaco pesado, cachecol e luvas. Raramente neva.
+                Froid ! Apportez un manteau lourd, écharpe et gants. Il neige rarement.
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-green-100 to-green-50 p-4 rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">🌸 Primavera (Mar-Mai)</h4>
+              <h4 className="font-bold text-gray-900 mb-2">🌸 Printemps (Mar-Mai)</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Temperatura:</strong> 10-18°C
+                <strong>Température :</strong> 10-18°C
               </p>
               <p className="text-sm text-gray-700">
-                Agradável! Casaco leve. Período lindo para visitar.
+                Agréable ! Manteau léger. Période magnifique pour visiter.
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-yellow-100 to-yellow-50 p-4 rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">☀️ Verão (Jun-Ago)</h4>
+              <h4 className="font-bold text-gray-900 mb-2">☀️ Été (Juin-Août)</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Temperatura:</strong> 20-30°C
+                <strong>Température :</strong> 20-30°C
               </p>
               <p className="text-sm text-gray-700">
-                Quente! Roupas leves. Pico de turismo. Protetor solar!
+                Chaud ! Vêtements légers. Pic du tourisme. Crème solaire !
               </p>
             </div>
             
             <div className="bg-gradient-to-br from-orange-100 to-orange-50 p-4 rounded-lg">
-              <h4 className="font-bold text-gray-900 mb-2">🍂 Outono (Set-Nov)</h4>
+              <h4 className="font-bold text-gray-900 mb-2">🍂 Automne (Sept-Nov)</h4>
               <p className="text-sm text-gray-700 mb-2">
-                <strong>Temperatura:</strong> 10-20°C
+                <strong>Température :</strong> 10-20°C
               </p>
               <p className="text-sm text-gray-700">
-                Agradável! Casaco. Cores lindas. Ótima época!
+                Agréable ! Manteau. Couleurs magnifiques. Excellente période !
               </p>
             </div>
           </div>
         </InfoSection>
 
         {/* Useful Phrases */}
-        <InfoSection icon="💬" title="Frases Úteis em Francês">
+        <InfoSection icon="💬" title="Phrases Utiles en Français">
           <div className="grid md:grid-cols-2 gap-4 text-sm">
             {[
-              { pt: "Olá / Bom dia", fr: "Bonjour", pron: "bon-júr" },
-              { pt: "Boa tarde / Boa noite", fr: "Bonsoir", pron: "bon-suár" },
-              { pt: "Por favor", fr: "S'il vous plaît", pron: "sil vu plê" },
-              { pt: "Obrigado(a)", fr: "Merci", pron: "mer-sí" },
-              { pt: "Desculpe", fr: "Pardon / Excusez-moi", pron: "par-dón / eks-ku-zê muá" },
-              { pt: "Não falo francês", fr: "Je ne parle pas français", pron: "jê nê parl pá fran-sê" },
-              { pt: "Você fala inglês?", fr: "Parlez-vous anglais?", pron: "par-lê vu an-glê" },
-              { pt: "Quanto custa?", fr: "C'est combien?", pron: "sê con-bián" },
-              { pt: "A conta, por favor", fr: "L'addition, s'il vous plaît", pron: "la-di-sión sil vu plê" },
-              { pt: "Onde fica...?", fr: "Où est...?", pron: "u ê" },
-              { pt: "Preciso de ajuda", fr: "J'ai besoin d'aide", pron: "jê be-zuán déd" },
-              { pt: "Estou perdido(a)", fr: "Je suis perdu(e)", pron: "jê suí per-dú" },
+              { pt: "Bonjour / Bonne journée", fr: "Bonjour", pron: "bon-júr" },
+              { pt: "Bonsoir / Bonne soirée", fr: "Bonsoir", pron: "bon-suár" },
+              { pt: "S'il vous plaît", fr: "S'il vous plaît", pron: "sil vu plê" },
+              { pt: "Merci", fr: "Merci", pron: "mer-sí" },
+              { pt: "Pardon / Excusez-moi", fr: "Pardon / Excusez-moi", pron: "par-dón / eks-ku-zê muá" },
+              { pt: "Je ne parle pas français", fr: "Je ne parle pas français", pron: "jê nê parl pá fran-sê" },
+              { pt: "Parlez-vous anglais ?", fr: "Parlez-vous anglais ?", pron: "par-lê vu an-glê" },
+              { pt: "C'est combien ?", fr: "C'est combien ?", pron: "sê con-bián" },
+              { pt: "L'addition, s'il vous plaît", fr: "L'addition, s'il vous plaît", pron: "la-di-sión sil vu plê" },
+              { pt: "Où est... ?", fr: "Où est... ?", pron: "u ê" },
+              { pt: "J'ai besoin d'aide", fr: "J'ai besoin d'aide", pron: "jê be-zuán déd" },
+              { pt: "Je suis perdu(e)", fr: "Je suis perdu(e)", pron: "jê suí per-dú" },
             ].map((phrase, index) => (
               <div key={index} className="bg-primary-50 p-3 rounded-lg">
                 <p className="text-gray-900 font-semibold">{phrase.pt}</p>
@@ -252,32 +252,32 @@ export default function InfoPage() {
         </InfoSection>
 
         {/* Important Info */}
-        <InfoSection icon="ℹ️" title="Informações Gerais">
+        <InfoSection icon="ℹ️" title="Informations Générales">
           <div className="space-y-4 text-sm text-gray-700">
             <div className="grid md:grid-cols-2 gap-4">
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">🔌 Eletricidade</h4>
-                <p>220V - Tomada tipo E (dois pinos redondos + terra)</p>
+                <h4 className="font-bold text-gray-900 mb-2">🔌 Électricité</h4>
+                <p>220V - Prise type E (deux broches rondes + terre)</p>
               </div>
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">🚰 Água</h4>
-                <p>Água da torneira é potável e de excelente qualidade</p>
+                <h4 className="font-bold text-gray-900 mb-2">🚰 Eau</h4>
+                <p>L'eau du robinet est potable et d'excellente qualité</p>
               </div>
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">💶 Moeda</h4>
-                <p>Euro (EUR) - Cartão aceito em quase todos os lugares</p>
+                <h4 className="font-bold text-gray-900 mb-2">💶 Monnaie</h4>
+                <p>Euro (EUR) - Carte acceptée presque partout</p>
               </div>
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">🕐 Fuso Horário</h4>
-                <p>GMT+1 (CET) | Verão: GMT+2 (CEST)</p>
+                <h4 className="font-bold text-gray-900 mb-2">🕐 Fuseau Horaire</h4>
+                <p>GMT+1 (CET) | Été : GMT+2 (CEST)</p>
               </div>
               <div>
-                <h4 className="font-bold text-gray-900 mb-2">💡 Gorjetas</h4>
-                <p>Serviço incluído. 5-10% opcional se muito satisfeito</p>
+                <h4 className="font-bold text-gray-900 mb-2">💡 Pourboires</h4>
+                <p>Service inclus. 5-10% optionnel si très satisfait</p>
               </div>
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">📶 WiFi</h4>
-                <p>Muitos cafés e restaurantes oferecem WiFi grátis</p>
+                <p>Beaucoup de cafés et restaurants offrent le WiFi gratuit</p>
               </div>
             </div>
           </div>
